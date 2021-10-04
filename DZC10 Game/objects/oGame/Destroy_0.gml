@@ -1,0 +1,1 @@
+camera_destroy(view_camera[0]);	// free the memory used by the camera
