@@ -2,6 +2,15 @@ left = keyboard_check(vk_left);
 up = keyboard_check(vk_up);
 right = keyboard_check(vk_right);
 
+if (keyboard_check(vk_right) || keyboard_check(vk_left))
+{
+	sprite_index = Spr_player_run;
+}
+else
+{
+	sprite_index = Spr_player_static;
+}
+
 	var move = right - left;
 
 	hsp = move * walkspeed;
