@@ -6,11 +6,13 @@ right = keyboard_check(vk_right);
 
 	hsp = move * walkspeed;
 
-	vsp = vsp + grv
+	
 		if(place_meeting(x,y+1,Obj_wall)) && (up) //jumping
 	{
 		vsp = -15;
 	}
+	
+	vsp = vsp + grv
 //push
 Scr_push();
 
