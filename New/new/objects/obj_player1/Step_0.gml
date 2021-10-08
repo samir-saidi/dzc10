@@ -62,12 +62,21 @@ if (place_meeting(x+hspd, y, obj_button))
          x += sign(hspd);
          }
     hspd = 0;
-	butt_press = 1;
+	butt_press = 1;											//button is pressed
     }
 else if (!place_meeting(x+sign(hspd), y, obj_button))
 {
-	butt_press=0;
+	butt_press=0;											//button is not pressed
 }
+if (place_meeting(x+hspd, y, obj_door)) && (butt_press = 0)
+    {
+    while (!place_meeting(x+sign(hspd), y, obj_door))
+         {
+         x += sign(hspd);
+         }
+    hspd = 0;
+    }
+
 //move horizontally
 x += hspd;
 
@@ -88,11 +97,11 @@ if (place_meeting(x, y+vspd, obj_button))
 		y += sign(vspd);
     }
 	vspd = 0;
-	butt_press = 1;
+	butt_press = 1;											//button is pressed
 }
 else if (!place_meeting(x, y+sign(vspd), obj_button))
 {
-	butt_press=0;
+	butt_press=0;											//button is not pressed
 }
 //move vertically
 y += vspd;
