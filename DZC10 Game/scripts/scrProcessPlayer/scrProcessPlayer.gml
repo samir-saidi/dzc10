@@ -3,7 +3,7 @@ function scrProcessPlayer() {
 
 	// Apply gravity (and jumping)
 	y = y+grav;
-	grav+=gravdelta;
+	grav+=gravdelta; 
 	if( grav>=gravmax ) grav=gravmax;
 
 	/////////////////////

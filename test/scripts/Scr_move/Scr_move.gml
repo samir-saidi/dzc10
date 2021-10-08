@@ -23,8 +23,13 @@ function Scr_move(hsp, vsp){
 		}
 		vsp = 0;	
 	}
+	else
+	{
+		
+		vsp = vsp + grv;	
+	}
 	
-	y = y + vsp;
+	y = y + vsp ;
 
 //animation (facing right and left)
 	if(hsp!=0) image_xscale =  sign(hsp);

@@ -2,6 +2,7 @@
   "resources": [
     {"id":{"name":"sBGGrad_grass","path":"sprites/sBGGrad_grass/sBGGrad_grass.yy",},"order":0,},
     {"id":{"name":"sBGHills_grass","path":"sprites/sBGHills_grass/sBGHills_grass.yy",},"order":1,},
+    {"id":{"name":"warp","path":"sprites/warp/warp.yy",},"order":5,},
     {"id":{"name":"sBGHills1_grass","path":"sprites/sBGHills1_grass/sBGHills1_grass.yy",},"order":2,},
     {"id":{"name":"sCloud_grass","path":"sprites/sCloud_grass/sCloud_grass.yy",},"order":3,},
     {"id":{"name":"sCloud1_grass","path":"sprites/sCloud1_grass/sCloud1_grass.yy",},"order":4,},
@@ -37,6 +38,7 @@
     {"id":{"name":"oPickupParent","path":"objects/oPickupParent/oPickupParent.yy",},"order":0,},
     {"id":{"name":"oStar","path":"objects/oStar/oStar.yy",},"order":1,},
     {"id":{"name":"oHeart","path":"objects/oHeart/oHeart.yy",},"order":2,},
+    {"id":{"name":"warp_obj","path":"objects/warp_obj/warp_obj.yy",},"order":4,},
     {"id":{"name":"oGame","path":"objects/oGame/oGame.yy",},"order":1,},
     {"id":{"name":"oGhost","path":"objects/oGhost/oGhost.yy",},"order":3,},
     {"id":{"name":"oPlayer","path":"objects/oPlayer/oPlayer.yy",},"order":2,},
