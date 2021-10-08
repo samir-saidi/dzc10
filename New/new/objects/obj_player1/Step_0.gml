@@ -36,6 +36,11 @@ if ((!!rkey && !!lkey) || (rkey && lkey))
     {
     hspd = 0;
     }
+//check if key was released
+if (keyboard_check_released(vk_right) || keyboard_check_released(vk_left))
+	{
+	hspd = 0;
+	}
 // Horizontal collision
 if (place_meeting(x+hspd, y, obj_solid))
     {
