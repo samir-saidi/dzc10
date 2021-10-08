@@ -3,7 +3,7 @@
     "name": "spr_button",
     "path": "sprites/spr_button/spr_button.yy",
   },
-  "solid": false,
+  "solid": true,
   "visible": true,
   "spriteMaskId": null,
   "persistent": false,
