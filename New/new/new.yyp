@@ -1,5 +1,9 @@
 {
   "resources": [
+    {"id":{"name":"obj_solid","path":"objects/obj_solid/obj_solid.yy",},"order":1,},
+    {"id":{"name":"obj_player1","path":"objects/obj_player1/obj_player1.yy",},"order":0,},
+    {"id":{"name":"spr_solid","path":"sprites/spr_solid/spr_solid.yy",},"order":1,},
+    {"id":{"name":"spr_Player1","path":"sprites/spr_Player1/spr_Player1.yy",},"order":0,},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},"order":0,},
   ],
   "Options": [
