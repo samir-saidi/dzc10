@@ -1,6 +1,7 @@
 {
   "resources": [
     {"id":{"name":"spr_button","path":"sprites/spr_button/spr_button.yy",},"order":2,},
+    {"id":{"name":"Scr_move","path":"scripts/Scr_move/Scr_move.yy",},"order":0,},
     {"id":{"name":"obj_solid","path":"objects/obj_solid/obj_solid.yy",},"order":1,},
     {"id":{"name":"obj_player1","path":"objects/obj_player1/obj_player1.yy",},"order":0,},
     {"id":{"name":"obj_button","path":"objects/obj_button/obj_button.yy",},"order":2,},
