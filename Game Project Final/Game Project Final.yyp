@@ -1,5 +1,12 @@
 {
   "resources": [
+    {"id":{"name":"Obj_block","path":"objects/Obj_block/Obj_block.yy",},"order":2,},
+    {"id":{"name":"Obj_wall","path":"objects/Obj_wall/Obj_wall.yy",},"order":1,},
+    {"id":{"name":"Spr_player_static","path":"sprites/Spr_player_static/Spr_player_static.yy",},"order":1,},
+    {"id":{"name":"Obj_player","path":"objects/Obj_player/Obj_player.yy",},"order":0,},
+    {"id":{"name":"Spr_wall","path":"sprites/Spr_wall/Spr_wall.yy",},"order":0,},
+    {"id":{"name":"Spr_player_run","path":"sprites/Spr_player_run/Spr_player_run.yy",},"order":2,},
+    {"id":{"name":"Spr_block","path":"sprites/Spr_block/Spr_block.yy",},"order":3,},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},"order":0,},
   ],
   "Options": [
