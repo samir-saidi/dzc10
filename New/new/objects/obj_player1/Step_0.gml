@@ -4,7 +4,7 @@ if ((keyboard_check(vk_right)) && place_free(x + clspd, y)) {
 	//sprite_index = sprite_here //for when we add animated sprites
 }
 
-if ((keyboard_check(vk_left)) && place_free(x - clspd, y)) {
+if ((keyboard_check(vk_left)) && place_free(x + clspd, y)) {
 	x -= spd;
 	//image_speed = spd/3; //for when we add animated sprites
 	//sprite_index = sprite_here //for when we add animated sprites
