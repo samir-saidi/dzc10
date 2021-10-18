@@ -9,6 +9,7 @@ if(place_meeting(x+hsp, y, obj_wall))
 	}
 	hsp = 0;	
 }
+/*
 if(place_meeting(x+hsp, y, obj_button))
 {
 	while(!place_meeting(x+sign(hsp), y, obj_button))
@@ -16,9 +17,8 @@ if(place_meeting(x+hsp, y, obj_button))
 		x+=sign(hsp);	
 	}
 	hsp = 0;	
-	if(obj_button.image_index ==0){obj_button.image_index=1;
-	obj_door.active=true;}
-}
+	
+}*/
 
 if(place_meeting(x+hsp, y, obj_door))
 {
@@ -31,6 +31,7 @@ if(place_meeting(x+hsp, y, obj_door))
 
 x+= hsp;
 
+
 //vertical collision
 
 if(place_meeting(x, y+vsp, obj_wall))
@@ -40,17 +41,16 @@ if(place_meeting(x, y+vsp, obj_wall))
 		y+=sign(vsp);	
 	}
 	vsp = 0;	
-}
+}/*
 if(place_meeting(x, y+vsp, obj_button))
 {
 	while(!place_meeting(x, y+sign(vsp), obj_button))
 	{
 		y+=sign(vsp);	
 	}
-	if(obj_button.image_index ==0){obj_button.image_index=1;
-	obj_door.active=true;}
+
 	vsp = 0;	
-}
+}*/
 if(place_meeting(x, y+vsp, obj_door))
 {
 	while(!place_meeting(x, y+sign(vsp), obj_door))
