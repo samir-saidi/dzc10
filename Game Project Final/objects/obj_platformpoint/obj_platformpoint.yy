@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "Sprite9",
-    "path": "sprites/Sprite9/Sprite9.yy",
+    "name": "spr_start_moving_platform",
+    "path": "sprites/spr_start_moving_platform/spr_start_moving_platform.yy",
   },
   "solid": false,
   "visible": false,
