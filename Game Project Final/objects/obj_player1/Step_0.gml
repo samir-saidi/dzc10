@@ -3,6 +3,15 @@ key_up = keyboard_check(ord("W"));
 key_left = keyboard_check(ord("A"));
 key_down = keyboard_check(ord("S"));
 
+if (key_left || key_right)
+{
+	sprite_index = spr_p1_walk;
+}
+else
+{
+	sprite_index = spr_p1_idle;
+}
+
 move = key_right - key_left;
 hsp = move * movespeed + hsp_carry;
 hsp_carry=0
@@ -80,3 +89,13 @@ else
 }
 
 scr_move(hsp,vsp);
+
+if (!place_meeting(x,y+1,obj_wall) && !place_meeting(x,y+1,obj_moving_platform1))
+{
+	if (sign(vsp) > 0)
+	{
+		sprite_index = spr_p1_fall;
+	} else if (sign(vsp) < 0) {
+		sprite_index = spr_p1_jump;
+	}
+}
