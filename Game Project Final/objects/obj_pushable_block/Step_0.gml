@@ -1,13 +1,3 @@
-key_right = keyboard_check(ord("D"));
-key_up = keyboard_check(ord("W"));
-key_left = keyboard_check(ord("A"));
-key_down = keyboard_check(ord("S"));
-
-move = key_right - key_left;
-hsp = move * movespeed + hsp_carry;
-hsp_carry=0
-if(move!=0) image_xscale = move;
-
 //water check
 if(place_meeting(x, y, obj_water))
 {	
@@ -31,17 +21,6 @@ else
 }
 
 
-
-if(place_meeting(x,y+1, obj_wall)||place_meeting(x,y+1, obj_moving_platform1)||place_meeting(x,y+1, obj_pushable_block)){
-	
-	if(are_we_in_water){ vsp = key_up*-(jumpspeed/3);}
-	else{vsp = key_up * - jumpspeed;}		//jumping mechanic
-}
-else if(are_we_in_water&&key_up)
-{
-	vsp = key_up * - (jumpspeed/500);		//jumping in water
-}
-//*/
 if(vsp < 10) vsp += grav;			//gravity
 
 //moving platform collision;
@@ -56,9 +35,12 @@ if(_movingPlatform!=noone && bbox_bottom>_movingPlatform.bbox_top)
         }
         vsp=0;
     }
+	hsp_carry = _movingPlatform.move_x;
+	vsp_carry = _movingPlatform.move_y;
     x+=_movingPlatform.move_x;
     y+=_movingPlatform.move_y;
 }
+
 var block_on_movingPlatform = instance_place(x,y+max(1, vsp), obj_pushable_block);
 if(block_on_movingPlatform!=noone && bbox_bottom>block_on_movingPlatform.bbox_top)
 {
@@ -70,13 +52,8 @@ if(block_on_movingPlatform!=noone && bbox_bottom>block_on_movingPlatform.bbox_to
         }
         vsp=0;
     }
-
     x+=block_on_movingPlatform.hsp_carry;
     y+=block_on_movingPlatform.vsp_carry;
 }
-else
-{
-	scr_push();
-}
 
-scr_move(hsp,vsp);
+scr_move(0,vsp);

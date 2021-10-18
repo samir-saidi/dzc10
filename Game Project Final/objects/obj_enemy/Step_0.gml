@@ -1,13 +1,8 @@
-key_right = keyboard_check(ord("D"));
-key_up = keyboard_check(ord("W"));
-key_left = keyboard_check(ord("A"));
-key_down = keyboard_check(ord("S"));
 
-move = key_right - key_left;
-hsp = move * movespeed + hsp_carry;
-hsp_carry=0
-if(move!=0) image_xscale = move;
-
+/*
+hsp = move * movespeed;
+if(hsp!=0) image_xscale = sign(hsp);
+*/
 //water check
 if(place_meeting(x, y, obj_water))
 {	
@@ -31,17 +26,6 @@ else
 }
 
 
-
-if(place_meeting(x,y+1, obj_wall)||place_meeting(x,y+1, obj_moving_platform1)||place_meeting(x,y+1, obj_pushable_block)){
-	
-	if(are_we_in_water){ vsp = key_up*-(jumpspeed/3);}
-	else{vsp = key_up * - jumpspeed;}		//jumping mechanic
-}
-else if(are_we_in_water&&key_up)
-{
-	vsp = key_up * - (jumpspeed/500);		//jumping in water
-}
-//*/
 if(vsp < 10) vsp += grav;			//gravity
 
 //moving platform collision;
