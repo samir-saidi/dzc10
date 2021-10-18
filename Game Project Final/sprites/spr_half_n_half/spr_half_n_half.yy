@@ -9,7 +9,7 @@
   "swfPrecision": 2.525,
   "bbox_left": 0,
   "bbox_right": 31,
-  "bbox_top": 3,
+  "bbox_top": 0,
   "bbox_bottom": 31,
   "HTile": false,
   "VTile": false,
@@ -24,12 +24,12 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"5208f908-4599-4dad-83ef-c88cc855174d","path":"sprites/spr_water/spr_water.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"5208f908-4599-4dad-83ef-c88cc855174d","path":"sprites/spr_water/spr_water.yy",},"LayerId":{"name":"8ebb04fe-223e-4eb0-bd71-6a094e084a40","path":"sprites/spr_water/spr_water.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_water","path":"sprites/spr_water/spr_water.yy",},"resourceVersion":"1.0","name":"5208f908-4599-4dad-83ef-c88cc855174d","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"9d382334-c5a2-471e-8b44-30921dbb740a","path":"sprites/spr_half_n_half/spr_half_n_half.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"9d382334-c5a2-471e-8b44-30921dbb740a","path":"sprites/spr_half_n_half/spr_half_n_half.yy",},"LayerId":{"name":"f64fd20e-300e-44b6-905b-53305d444a4d","path":"sprites/spr_half_n_half/spr_half_n_half.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"spr_half_n_half","path":"sprites/spr_half_n_half/spr_half_n_half.yy",},"resourceVersion":"1.0","name":"9d382334-c5a2-471e-8b44-30921dbb740a","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
-    "spriteId": {"name":"spr_water","path":"sprites/spr_water/spr_water.yy",},
+    "spriteId": {"name":"spr_half_n_half","path":"sprites/spr_half_n_half/spr_half_n_half.yy",},
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 30.0,
@@ -41,7 +41,7 @@
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
       {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
-            {"id":"d2145e80-4034-4b04-8dac-6d7690495bd2","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"5208f908-4599-4dad-83ef-c88cc855174d","path":"sprites/spr_water/spr_water.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"9425503f-88db-41a9-a55a-a0a7e5c889f0","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"9d382334-c5a2-471e-8b44-30921dbb740a","path":"sprites/spr_half_n_half/spr_half_n_half.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
           ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
     ],
     "visibleRange": null,
@@ -58,14 +58,14 @@
     "yorigin": 16,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"spr_water","path":"sprites/spr_water/spr_water.yy",},
+    "parent": {"name":"spr_half_n_half","path":"sprites/spr_half_n_half/spr_half_n_half.yy",},
     "resourceVersion": "1.3",
-    "name": "spr_water",
+    "name": "spr_half_n_half",
     "tags": [],
     "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"8ebb04fe-223e-4eb0-bd71-6a094e084a40","tags":[],"resourceType":"GMImageLayer",},
+    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"f64fd20e-300e-44b6-905b-53305d444a4d","tags":[],"resourceType":"GMImageLayer",},
   ],
   "nineSlice": null,
   "parent": {
@@ -73,7 +73,7 @@
     "path": "folders/Sprites.yy",
   },
   "resourceVersion": "1.0",
-  "name": "spr_water",
+  "name": "spr_half_n_half",
   "tags": [],
   "resourceType": "GMSprite",
 }
