@@ -16,7 +16,6 @@ are_we_in_water = false;
 	direction = global.target_direction;
 }*/
 
-tilemap = layer_tilemap_get_id("collisions");
 
 
 

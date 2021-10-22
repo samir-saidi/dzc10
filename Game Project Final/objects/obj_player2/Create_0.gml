@@ -1,5 +1,4 @@
 /// @description Initialize variables
-
 gravity_normal=0.2;
 gravity_swimming=0.05;
 grav = gravity_normal;
@@ -11,4 +10,3 @@ jumpspeed = 8;
 movespeed = 4;
 
 
-tilemap = layer_tilemap_get_id("collisions");
