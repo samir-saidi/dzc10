@@ -57,3 +57,30 @@ if(block_on_movingPlatform!=noone && bbox_bottom>block_on_movingPlatform.bbox_to
 }
 
 scr_move(0,vsp);
+
+//portal system
+var pad, dest;
+pad=instance_place(x,y,obj_pad_portal);
+if(place_meeting(x+1, y, obj_player1)||place_meeting(x-1, y, obj_player2)||place_meeting(x-1, y, obj_player1)||place_meeting(x+1, y, obj_player2))
+{
+	if(place_meeting(x, y, pad))
+	{
+		if(keyboard_check_pressed(ord("I"))|| keyboard_check_pressed(ord("E")))
+		{
+			for(i=0;i<instance_number(obj_dest_portal);i++)
+			{
+				dest = instance_find(obj_dest_portal, i);
+				if(pad.index==dest.index)
+				{
+				
+				//	effect = instance_create_depth(x,y,-1,obj_effect);
+				//	effect.target=dest;
+					x=dest.x-32;
+					y=dest.y;
+					//visible = false;
+					break;
+				}
+			}
+		}
+	}
+}
