@@ -80,3 +80,18 @@ else
 }
 
 scr_move(hsp,vsp);
+<<<<<<< Updated upstream
+=======
+
+if (!place_meeting(x,y+1,obj_wall) && !place_meeting(x,y+1,obj_moving_platform1))
+{
+	if (sign(vsp) > 0)
+	{
+		sprite_index = spr_p1_fall;
+	} else if (sign(vsp) < 0) {
+		sprite_index = spr_p1_jump;
+	}
+}
+
+
+>>>>>>> Stashed changes

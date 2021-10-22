@@ -1,3 +1,4 @@
+
 key_right = keyboard_check(vk_right);
 key_up = keyboard_check(vk_up);
 key_left = keyboard_check(vk_left);
@@ -5,6 +6,8 @@ key_down = keyboard_check(vk_down);
 
 move = key_right - key_left;
 hsp = move * movespeed;
+vsp= vsp+ grav;
+
 if(move!=0) image_xscale = move;
 //water check
 if(place_meeting(x, y, obj_water))
@@ -80,3 +83,18 @@ else
 
 
 scr_move(hsp,vsp);
+<<<<<<< Updated upstream
+=======
+
+
+if (!place_meeting(x,y+1,obj_wall) && !place_meeting(x,y+1,obj_moving_platform1))
+{
+	if (sign(vsp) > 0)
+	{
+		sprite_index = spr_p2_fall;
+	} else if (sign(vsp) < 0) {
+		sprite_index = spr_p2_jump;
+}
+
+}
+>>>>>>> Stashed changes
