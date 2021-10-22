@@ -31,6 +31,7 @@
     {"id":{"name":"spr_moving_platform","path":"sprites/spr_moving_platform/spr_moving_platform.yy",},"order":6,},
     {"id":{"name":"spr_lava","path":"sprites/spr_lava/spr_lava.yy",},"order":21,},
     {"id":{"name":"obj_player2","path":"objects/obj_player2/obj_player2.yy",},"order":4,},
+    {"id":{"name":"TileSet1","path":"tilesets/TileSet1/TileSet1.yy",},"order":0,},
     {"id":{"name":"obj_enemy","path":"objects/obj_enemy/obj_enemy.yy",},"order":15,},
     {"id":{"name":"obj_door","path":"objects/obj_door/obj_door.yy",},"order":3,},
     {"id":{"name":"obj_moving_platform1","path":"objects/obj_moving_platform1/obj_moving_platform1.yy",},"order":7,},
