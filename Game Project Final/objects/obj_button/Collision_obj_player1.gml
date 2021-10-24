@@ -1,7 +1,7 @@
 
 /// @description Insert description here
 // You can write your code in this editor
-if(keyboard_check(ord("I"))){
+if(keyboard_check(ord("E"))){
 
 
 		if(image_index ==0){image_index=1;
