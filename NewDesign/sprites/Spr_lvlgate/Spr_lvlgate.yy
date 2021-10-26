@@ -72,10 +72,6 @@
     {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"9125fff7-3204-4a9f-9397-14483640e95c","tags":[],"resourceType":"GMImageLayer",},
   ],
   "nineSlice": null,
-  "parent": {
-    "name": "lvlselect",
-    "path": "folders/Sprites/lvlselect.yy",
-  },
   "resourceVersion": "1.0",
   "name": "Spr_lvlgate",
   "tags": [],

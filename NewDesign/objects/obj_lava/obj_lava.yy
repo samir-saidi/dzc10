@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "spr_lavagif",
-    "path": "sprites/spr_lavagif/spr_lavagif.yy",
+    "name": "spr_lava",
+    "path": "sprites/spr_lava/spr_lava.yy",
   },
   "solid": true,
   "visible": true,
