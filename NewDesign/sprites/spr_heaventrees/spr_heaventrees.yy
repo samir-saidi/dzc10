@@ -37,7 +37,7 @@
     "spriteId": {"name":"spr_heaventrees","path":"sprites/spr_heaventrees/spr_heaventrees.yy",},
     "timeUnits": 1,
     "playback": 1,
-    "playbackSpeed": 15.0,
+    "playbackSpeed": 0.0,
     "playbackSpeedType": 0,
     "autoRecord": true,
     "volume": 1.0,
