@@ -1,3 +1,4 @@
 /// @description Insert description here
 // You can write your code in this editor
-image_index = 0;
+array_len = array_length(global.lvl_unlock);
+unlocked = false;

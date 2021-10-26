@@ -1,4 +1,4 @@
-/// @description count&name lvldoors
+/// @description count, name and set variable of lvldoors
 // You can write your code in this editor
 
 //count lvldoors and create arrays for lvl unlock and collected stars
@@ -20,7 +20,7 @@ for(i=0; i<lvl_amount; i++){
         lvl_number = other.i + 1;
 		
 		//check if there is a room with the same lvl_number
-		room_name = "Room" + string(lvl_number);
+		room_name = "Rm_lvl_" + string(lvl_number);
 		if (room_exists(asset_get_index(room_name))){
 			rm_goto = asset_get_index(room_name);
 		} else {

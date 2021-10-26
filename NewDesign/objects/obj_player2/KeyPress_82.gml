@@ -1,2 +1,2 @@
-/// @description ???
-game_restart();
+/// @description reset room
+room_restart();

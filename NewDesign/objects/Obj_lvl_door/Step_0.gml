@@ -8,10 +8,10 @@ key_e = keyboard_check_pressed(ord("E"));	//check if 'e' is pressed
 key_i = keyboard_check_pressed(ord("I"));	//check if 'i' is pressed
 
 if (unlocked){
-	image_index = 0;
+	image_index = 1;
 	if ((coll_play_1 && coll_play_2) && (key_e || key_i)) {
 		room_goto(rm_goto);
 	}
 }else {
-	image_index = 1;
+	image_index = 0;
 }

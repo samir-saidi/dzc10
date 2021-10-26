@@ -1,0 +1,18 @@
+Hello, i hope you have a great day.
+
+
+latest fixes made by me:
+
+*	removing duplicate objects and sprites;
+this included things like Obj_player1_1 and Obj_player1_2 and Spr_player1_1 and spr_player1_2. 
+This was proably caused when the projects were combined as things with _1 only occured in Rm_lvlselect and
+_2 in Rm_lvlselect_error. 
+** there are still 2 remaining references to Obj_player1_1 and Obj_player_2_1, these files do not exist and
+	i was unable to find where they are referenced from. if you find a reference to them please fix ;).
+
+*	changed naming of lvls
+changed the naming of the levels to Rm_lvl_1, Rm_lvl_2,... please use this naming scheme if you want the room
+o be recognized by the leveldoors in the selection screen.
+also changed the room_exit to reflect the new room naming.
+if multiple rooms are used, use the camera to folow thru the lvl or create a tp to a sublvl o Rm_lvl_1a and not
+a new lvl
