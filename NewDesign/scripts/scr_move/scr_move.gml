@@ -9,6 +9,7 @@ if(place_meeting(x+hsp, y, obj_wall))
 	}
 	hsp = 0;	
 }
+
 if(place_meeting(x+hsp, y, obj_wall_heaven))
 {
 	while(!place_meeting(x+sign(hsp), y, obj_wall))
@@ -25,16 +26,7 @@ if(place_meeting(x+hsp, y, obj_wall_recolor))
 	}
 	hsp = 0;	
 }
-/*
-if(place_meeting(x+hsp, y, obj_button))
-{
-	while(!place_meeting(x+sign(hsp), y, obj_button))
-	{
-		x+=sign(hsp);	
-	}
-	hsp = 0;	
-	
-}*/
+
 
 if(place_meeting(x+hsp, y, obj_door))
 {
@@ -58,6 +50,7 @@ if(place_meeting(x, y+vsp, obj_wall))
 	}
 	vsp = 0;	
 }
+
 if(place_meeting(x, y+vsp, obj_wall_heaven))
 {
 	while(!place_meeting(x, y+sign(vsp), obj_wall))

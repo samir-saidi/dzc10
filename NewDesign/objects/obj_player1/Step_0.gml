@@ -55,6 +55,8 @@ else if(are_we_in_water&&key_up)
 //*/
 if(vsp < 10) vsp += grav;			//gravity
 
+
+
 //moving platform collision;
 var _movingPlatform = instance_place(x,y+max(1, vsp), obj_moving_platform1);
 if(_movingPlatform!=noone && bbox_bottom>_movingPlatform.bbox_top)

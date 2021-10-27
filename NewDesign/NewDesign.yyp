@@ -28,6 +28,7 @@
     {"id":{"name":"spr_half_n_half","path":"sprites/spr_half_n_half/spr_half_n_half.yy",},"order":19,},
     {"id":{"name":"spr_wall","path":"sprites/spr_wall/spr_wall.yy",},"order":17,},
     {"id":{"name":"spr_clouds","path":"sprites/spr_clouds/spr_clouds.yy",},"order":50,},
+    {"id":{"name":"Rm_lvl_3","path":"rooms/Rm_lvl_3/Rm_lvl_3.yy",},"order":8,},
     {"id":{"name":"Spr_lvlgate","path":"sprites/Spr_lvlgate/Spr_lvlgate.yy",},"order":1,},
     {"id":{"name":"telepart","path":"scripts/telepart/telepart.yy",},"order":2,},
     {"id":{"name":"spr_p1_fall","path":"sprites/spr_p1_fall/spr_p1_fall.yy",},"order":14,},
@@ -83,6 +84,7 @@
     {"id":{"name":"TileSet1","path":"tilesets/TileSet1/TileSet1.yy",},"order":0,},
     {"id":{"name":"Wave","path":"scripts/Wave/Wave.yy",},"order":6,},
     {"id":{"name":"obj_dest_portal","path":"objects/obj_dest_portal/obj_dest_portal.yy",},"order":17,},
+    {"id":{"name":"Rm_lvl_enter_number","path":"rooms/Rm_lvl_enter_number/Rm_lvl_enter_number.yy",},"order":9,},
     {"id":{"name":"spr_hellplat","path":"sprites/spr_hellplat/spr_hellplat.yy",},"order":37,},
     {"id":{"name":"obj_wall_recolor","path":"objects/obj_wall_recolor/obj_wall_recolor.yy",},"order":14,},
     {"id":{"name":"spr_p2_jump","path":"sprites/spr_p2_jump/spr_p2_jump.yy",},"order":13,},
@@ -124,6 +126,7 @@
     "children": [],
   },
   "RoomOrderNodes": [
+    {"roomId":{"name":"Rm_lvl_3","path":"rooms/Rm_lvl_3/Rm_lvl_3.yy",},},
     {"roomId":{"name":"Rm_lvl_2","path":"rooms/Rm_lvl_2/Rm_lvl_2.yy",},},
     {"roomId":{"name":"Intro_cutscene","path":"rooms/Intro_cutscene/Intro_cutscene.yy",},},
     {"roomId":{"name":"Rm_lvlselect","path":"rooms/Rm_lvlselect/Rm_lvlselect.yy",},},
@@ -132,6 +135,7 @@
     {"roomId":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
     {"roomId":{"name":"Room2","path":"rooms/Room2/Room2.yy",},},
     {"roomId":{"name":"Room3","path":"rooms/Room3/Room3.yy",},},
+    {"roomId":{"name":"Rm_lvl_enter_number","path":"rooms/Rm_lvl_enter_number/Rm_lvl_enter_number.yy",},},
   ],
   "Folders": [
     {"folderPath":"folders/Sprites.yy","order":0,"resourceVersion":"1.0","name":"Sprites","tags":[],"resourceType":"GMFolder",},
