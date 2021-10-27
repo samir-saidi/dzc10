@@ -1,7 +1,5 @@
 /// @description 
-count++
-if(image_index ==0)&&(count>90){image_index=1;
-	
+if(image_index == 1){
+	global.lastRoom = room;
+	room_goto(RoomDeath);
 }
-if(count>100){
-	room_restart();}

@@ -1,3 +1,5 @@
 /// @description Insert description here
 // You can write your code in this editor
-count = 0;
+delay = 5*room_speed;
+delay2 = 1*room_speed;
+image_speed = 0;

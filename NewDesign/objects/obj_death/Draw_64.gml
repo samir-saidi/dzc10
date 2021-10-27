@@ -5,7 +5,7 @@ DrawSetText(c_white, fSign, fa_center, fa_top);
 draw_text(640, 600, print);
 
 DrawSetText(c_white, fSign_small, fa_center, fa_top);
-draw_text(640, 60, "Hold space to skip");
+draw_text(640, 60, "Hold space to try again");
 
 
 
@@ -16,7 +16,7 @@ if(holdspace>0)
 {
 		draw_set_alpha(Wave(0.2, 0.8, 1,0));
 		DrawSetText(c_white, fSign_small, fa_center, fa_top);
-		draw_text(640, 60, "Hold space to skip");
+		draw_text(640, 60, "Hold space to try again");
 		draw_set_alpha(1);
 }
 
