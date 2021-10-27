@@ -104,6 +104,21 @@ if (!place_meeting(x,y+1,obj_wall) && !place_meeting(x,y+1,obj_moving_platform1)
 	}
 }
 
+if (place_meeting( x,y, obj_vines))
+{
+	vsp = 0;
+	if(key_up)
+	{
+		vsp = -2;
+		sprite_index=spr_p2_climb;
+	}
+	else if(key_down)
+	{
+		sprite_index=spr_p2_climb;
+		vsp = 2;
+	}
+}
+
 //portal system
 var pad, dest;
 pad=instance_place(x,y,obj_pad_portal);

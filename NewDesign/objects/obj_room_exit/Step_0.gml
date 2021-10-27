@@ -1,6 +1,6 @@
 /// @desc Cause a room transition
 
-if(instance_exists(obj_player1)) && (position_meeting(obj_player1.x, obj_player1.y, id)&&instance_exists(obj_player2)) && (position_meeting(obj_player2.x, obj_player2.y, id))
+if(instance_exists(obj_player1)) && (position_meeting(obj_player1.x, obj_player1.y, obj_room_exit)&&instance_exists(obj_player2)) && (position_meeting(obj_player2.x, obj_player2.y, obj_room_exit))
 {
 		global.targetroom = _target_room;
 		global.target_x = _target_x;

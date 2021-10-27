@@ -14,7 +14,6 @@
   ],
   "layers": [
     {"instances":[
-        {"properties":[],"isDnd":false,"objectId":{"name":"obj_lava","path":"objects/obj_lava/obj_lava.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":12.0,"scaleY":6.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":1072.0,"y":656.0,"resourceVersion":"1.0","name":"inst_694F83D9","tags":[],"resourceType":"GMRInstance",},
         {"properties":[],"isDnd":false,"objectId":{"name":"obj_water","path":"objects/obj_water/obj_water.yy",},"inheritCode":false,"hasCreationCode":false,"colour":3489660927,"rotation":0.0,"scaleX":28.0,"scaleY":6.40206146,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":1360.0,"y":266.0,"resourceVersion":"1.0","name":"inst_50EA44B7","tags":[],"resourceType":"GMRInstance",},
       ],"visible":true,"depth":0,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"resourceVersion":"1.0","name":"water_lava","tags":[],"resourceType":"GMRInstanceLayer",},
     {"instances":[
@@ -658,6 +657,7 @@
     {"instances":[
         {"properties":[],"isDnd":false,"objectId":{"name":"obj_door","path":"objects/obj_door/obj_door.yy",},"inheritCode":false,"hasCreationCode":true,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":3.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":1280.0,"y":448.0,"resourceVersion":"1.0","name":"inst_5928AAC","tags":[],"resourceType":"GMRInstance",},
         {"properties":[],"isDnd":false,"objectId":{"name":"obj_door","path":"objects/obj_door/obj_door.yy",},"inheritCode":false,"hasCreationCode":true,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":3.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":1824.0,"y":128.0,"resourceVersion":"1.0","name":"inst_338EDA79","tags":[],"resourceType":"GMRInstance",},
+        {"properties":[],"isDnd":false,"objectId":{"name":"obj_lava","path":"objects/obj_lava/obj_lava.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.75,"scaleY":1.75,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":1072.0,"y":688.0,"resourceVersion":"1.0","name":"inst_5181E5C4","tags":[],"resourceType":"GMRInstance",},
       ],"visible":true,"depth":400,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"resourceVersion":"1.0","name":"doors","tags":[],"resourceType":"GMRInstanceLayer",},
     {"spriteId":{"name":"background","path":"sprites/background/background.yy",},"colour":4294967295,"x":0,"y":0,"htiled":false,"vtiled":false,"hspeed":0.0,"vspeed":0.0,"stretch":true,"animationFPS":30.0,"animationSpeedType":0,"userdefinedAnimFPS":false,"visible":true,"depth":500,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"resourceVersion":"1.0","name":"Background","tags":[],"resourceType":"GMRBackgroundLayer",},
   ],
@@ -780,7 +780,6 @@
     {"name":"inst_693D304F","path":"rooms/Rm_lvl_2/Rm_lvl_2.yy",},
     {"name":"inst_5D68C58E","path":"rooms/Rm_lvl_2/Rm_lvl_2.yy",},
     {"name":"inst_2CD9DB45","path":"rooms/Rm_lvl_2/Rm_lvl_2.yy",},
-    {"name":"inst_694F83D9","path":"rooms/Rm_lvl_2/Rm_lvl_2.yy",},
     {"name":"inst_5928AAC","path":"rooms/Rm_lvl_2/Rm_lvl_2.yy",},
     {"name":"inst_50EA44B7","path":"rooms/Rm_lvl_2/Rm_lvl_2.yy",},
     {"name":"inst_338EDA79","path":"rooms/Rm_lvl_2/Rm_lvl_2.yy",},
@@ -1049,6 +1048,7 @@
     {"name":"inst_5C8D085E","path":"rooms/Rm_lvl_2/Rm_lvl_2.yy",},
     {"name":"inst_790D4D88","path":"rooms/Rm_lvl_2/Rm_lvl_2.yy",},
     {"name":"inst_64DED289","path":"rooms/Rm_lvl_2/Rm_lvl_2.yy",},
+    {"name":"inst_5181E5C4","path":"rooms/Rm_lvl_2/Rm_lvl_2.yy",},
   ],
   "inheritCreationOrder": false,
   "sequenceId": null,

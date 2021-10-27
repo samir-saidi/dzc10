@@ -1,9 +1,9 @@
 {
   "spriteId": {
-    "name": "spr_lavagif",
-    "path": "sprites/spr_lavagif/spr_lavagif.yy",
+    "name": "Spr_lvlgate",
+    "path": "sprites/Spr_lvlgate/Spr_lvlgate.yy",
   },
-  "solid": true,
+  "solid": false,
   "visible": true,
   "spriteMaskId": null,
   "persistent": false,
@@ -20,19 +20,15 @@
   "physicsStartAwake": true,
   "physicsKinematic": false,
   "physicsShapePoints": [],
-  "eventList": [
-    {"isDnD":false,"eventNum":0,"eventType":4,"collisionObjectId":{"name":"obj_player2","path":"objects/obj_player2/obj_player2.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-  ],
-  "properties": [
-    {"varType":0,"value":"0","rangeEnabled":false,"rangeMin":0.0,"rangeMax":10.0,"listItems":[],"multiselect":false,"filters":[],"resourceVersion":"1.0","name":"depth:","tags":[],"resourceType":"GMObjectProperty",},
-  ],
+  "eventList": [],
+  "properties": [],
   "overriddenProperties": [],
   "parent": {
     "name": "Objects",
     "path": "folders/Objects.yy",
   },
   "resourceVersion": "1.0",
-  "name": "obj_lava",
+  "name": "obj_exit_door",
   "tags": [],
   "resourceType": "GMObject",
 }

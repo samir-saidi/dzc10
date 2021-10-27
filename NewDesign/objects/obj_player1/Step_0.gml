@@ -109,24 +109,20 @@ if (!place_meeting(x,y+1,obj_wall) && !place_meeting(x,y+1,obj_moving_platform1)
 
 //Ladder
 
-if (key_up || key_down)
 
-{ 
-	if (place_meeting( x,y, obj_ladder)) ladder = true;
-	
-}
-
-if (ladder)
-
+if (place_meeting( x,y, obj_ladder))
 {
-	
 	vsp = 0;
-	
-	if(key_up) vsp = -2;
-	if(key_down) vsp = 2;
-	if (!place_meeting(x, y, obj_ladder)) ladder = false;
-	if (key_left || key_right ) ladder = false;
-	if(key_jump) ladder = false;
+	if(key_up)
+	{
+		vsp = -2;
+		sprite_index=spr_p1_climb;
+	}
+	else if(key_down)
+	{
+		sprite_index=spr_p1_climb;
+		vsp = 2;
+	}
 }
 
 //portal system
