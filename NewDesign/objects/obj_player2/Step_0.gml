@@ -107,7 +107,7 @@ if (!place_meeting(x,y+1,obj_wall) && !place_meeting(x,y+1,obj_moving_platform1)
 //portal system
 var pad, dest;
 pad=instance_place(x,y,obj_pad_portal);
-if(place_meeting(x, y, pad))
+if(place_meeting(x, y, pad) && pad != noone)
 {
 	if(keyboard_check_pressed(ord("I")))
 	{
@@ -116,12 +116,12 @@ if(place_meeting(x, y, pad))
 			dest = instance_find(obj_dest_portal, i);
 			if(pad.index==dest.index)
 			{
-				
-			//	effect = instance_create_depth(x,y,-1,obj_effect);
-			//	effect.target=dest;
+				pad.sprite_index = spr_pad_portal_end;
+				pad.image_index = 0;
 				x=dest.x;
 				y=dest.y;
 				//visible = false;
+				
 				break;
 			}
 		}

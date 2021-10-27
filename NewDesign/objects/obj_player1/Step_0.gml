@@ -72,6 +72,8 @@ if(_movingPlatform!=noone && bbox_bottom>_movingPlatform.bbox_top)
     x+=_movingPlatform.move_x;
     y+=_movingPlatform.move_y;
 }
+
+//WALL + MOVING PLATFORM COLLISION
 var block_on_movingPlatform = instance_place(x,y+max(1, vsp), obj_pushable_block);
 if(block_on_movingPlatform!=noone && bbox_bottom>block_on_movingPlatform.bbox_top)
 {
@@ -94,6 +96,7 @@ else
 
 scr_move(hsp,vsp);
 
+//JUMP ANIMATION
 if (!place_meeting(x,y+1,obj_wall) && !place_meeting(x,y+1,obj_moving_platform1))
 {
 	if (sign(vsp) > 0)
@@ -106,7 +109,7 @@ if (!place_meeting(x,y+1,obj_wall) && !place_meeting(x,y+1,obj_moving_platform1)
 //portal system
 var pad, dest;
 pad=instance_place(x,y,obj_pad_portal);
-if(place_meeting(x, y, pad))
+if(place_meeting(x, y, pad) && pad != noone)
 {
 	if(keyboard_check_pressed(ord("E")))
 	{
@@ -115,9 +118,9 @@ if(place_meeting(x, y, pad))
 			dest = instance_find(obj_dest_portal, i);
 			if(pad.index==dest.index)
 			{
-				
-			//	effect = instance_create_depth(x,y,-1,obj_effect);
-			//	effect.target=dest;
+
+				pad.sprite_index = spr_pad_portal_end;
+				pad.image_index = 0;
 				x=dest.x;
 				y=dest.y;
 				//visible = false;
@@ -126,4 +129,3 @@ if(place_meeting(x, y, pad))
 		}
 	}
 }
-
