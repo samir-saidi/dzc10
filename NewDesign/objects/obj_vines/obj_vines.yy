@@ -1,5 +1,8 @@
 {
-  "spriteId": null,
+  "spriteId": {
+    "name": "spr_vines",
+    "path": "sprites/spr_vines/spr_vines.yy",
+  },
   "solid": false,
   "visible": true,
   "spriteMaskId": null,
