@@ -106,6 +106,29 @@ if (!place_meeting(x,y+1,obj_wall) && !place_meeting(x,y+1,obj_moving_platform1)
 		sprite_index = spr_p1_jump;
 	}
 }
+
+//Ladder
+
+if (key_up || key_down)
+
+{ 
+	if (place_meeting( x,y, obj_ladder)) ladder = true;
+	
+}
+
+if (ladder)
+
+{
+	
+	vsp = 0;
+	
+	if(key_up) vsp = -2;
+	if(key_down) vsp = 2;
+	if (!place_meeting(x, y, obj_ladder)) ladder = false;
+	if (key_left || key_right ) ladder = false;
+	if(key_jump) ladder = false;
+}
+
 //portal system
 var pad, dest;
 pad=instance_place(x,y,obj_pad_portal);
