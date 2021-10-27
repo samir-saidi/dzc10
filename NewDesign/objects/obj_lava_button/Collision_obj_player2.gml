@@ -18,20 +18,3 @@ if(keyboard_check(ord("I"))&&obj_player2.hsp==0){
 		}
 	
 }
-else {
-	
-	if(image_index ==1){image_index=0;
-		//	obj_door.active=true;
-	
-			if(instance_exists(obj_door)){
-
-				with(obj_door){
-					if(activate == other.activate)
-					{
-						active = false	
-					}
-				}
-			}
-		}
-	
-}
