@@ -15,6 +15,18 @@ else if (keyboard_check(vk_nokey))
 	sprite_index = spr_p1_idle;
 }
 
+//Animate jumping sprite
+if (!place_meeting(x,y+1,obj_wall) && !place_meeting(x,y+1,obj_moving_platform1))
+{
+	if (sign(vsp) > 0)
+	{
+		sprite_index = spr_p1_fall;
+	} else if (sign(vsp) < 0) {
+		sprite_index = spr_p1_jump;
+	}
+}
+
+//Set Horizontal move speed, and initate move variable
 move = key_right - key_left;
 hsp = move * movespeed + hsp_carry;
 hsp_carry=0
@@ -47,7 +59,7 @@ else if(are_we_in_water && key_up)
 }
 
 
-
+//Allows you to jump when standing on a platform
 if(place_meeting(x,y+1, obj_wall) || place_meeting(x,y+1, obj_moving_platform1) || place_meeting(x,y+1, obj_pushable_block)) and key_up{
 	
 	vsp = jumpspeed;		//jumping mechanic
@@ -101,6 +113,7 @@ else
 	scr_push_p1();
 }
 
+//HORIZONTAL COLLISION WITH DOORS AND WALLS
 if(place_meeting(x+hsp, y, obj_wall))
 {
 	while(!place_meeting(x+sign(hsp), y, obj_wall))
@@ -121,7 +134,7 @@ else if(place_meeting(x+hsp, y, obj_door))
 x+= hsp;
 
 
-//vertical collision
+//VERTICAL COLLISION WITH DOORS AND WALLS
 
 if(place_meeting(x, y+vsp, obj_wall))
 {
@@ -142,19 +155,9 @@ else if(place_meeting(x, y+vsp, obj_door))
 	y+= vsp;
 
 
-//JUMP ANIMATION
-if (!place_meeting(x,y+1,obj_wall) && !place_meeting(x,y+1,obj_moving_platform1))
-{
-	if (sign(vsp) > 0)
-	{
-		sprite_index = spr_p1_fall;
-	} else if (sign(vsp) < 0) {
-		sprite_index = spr_p1_jump;
-	}
-}
 
-//Ladder
 
+//Code to use ladders
 
 if (place_meeting( x,y, obj_ladder))
 {
@@ -170,7 +173,7 @@ if (place_meeting( x,y, obj_ladder))
 	}
 }
 
-//portal system
+//PORTAL COLLISION AND USAGE
 var pad, dest;
 pad=instance_place(x,y,obj_pad_portal);
 if(place_meeting(x, y, pad) && pad != noone)
