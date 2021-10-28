@@ -4,7 +4,7 @@
 //Draw itself 
 draw_self();
 //Draw the lvl_nember as specified in the variables
-draw_text(x+23, y+30, string(lvl_number));
+draw_text(x+30, y+50, string(lvl_number));
 
 /*
 //Draw the amount of stars that have been achieved for that lvl
