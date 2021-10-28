@@ -5,11 +5,12 @@ key_up = keyboard_check(ord("W"));
 key_left = keyboard_check(ord("A"));
 key_down = keyboard_check(ord("S"));
 
+//Animate walking sprite
 if (key_left || key_right)
 {
 	sprite_index = spr_p1_walk;
 }
-else
+else if (keyboard_check(vk_nokey))
 {
 	sprite_index = spr_p1_idle;
 }
@@ -17,61 +18,67 @@ else
 move = key_right - key_left;
 hsp = move * movespeed + hsp_carry;
 hsp_carry=0
-if(move!=0) image_xscale = move;
+
+//Flips the image based on which way you are facing
+if(move!=0) 
+	image_xscale = move;
 
 //water check
-if(place_meeting(x, y, obj_water))
+if(!place_meeting(x, y, obj_water))
 {	
+	grav = gravity_normal;
+	are_we_in_water=false;
+}	
+else if (place_meeting(x,y,obj_water))
+{
+	
 	grav = gravity_swimming;
 	vsp = lerp(vsp, 0, 0.01);
-	//state
 	
 	if(!are_we_in_water)
 	{
 		vsp /= 4;
-		//instance_create_layer(x,y,"Effects" , obj_effect_splash);
 	}
 	are_we_in_water=true;
-	
-
-}	
-else
-{
-	grav = gravity_normal;
-	are_we_in_water=false;
 }
-
-
-
-if(place_meeting(x,y+1, obj_wall)||place_meeting(x,y+1, obj_moving_platform1)||place_meeting(x,y+1, obj_pushable_block)){
-	
-	if(are_we_in_water){ vsp = key_up*-(jumpspeed/3);}
-	else{vsp = key_up * - jumpspeed;}		//jumping mechanic
-}
-else if(are_we_in_water&&key_up)
+else if(are_we_in_water && key_up)
 {
 	vsp = key_up * - (jumpspeed/3);		//jumping in water
 }
-//*/
-if(vsp < 10) vsp += grav;			//gravity
 
+
+
+if(place_meeting(x,y+1, obj_wall) || place_meeting(x,y+1, obj_moving_platform1) || place_meeting(x,y+1, obj_pushable_block)) and key_up{
+	
+	vsp = jumpspeed;		//jumping mechanic
+}
+
+//gravity
+if(vsp < 10) 
+{
+	vsp += grav;
+}
+
+	
 
 
 //moving platform collision;
 var _movingPlatform = instance_place(x,y+max(1, vsp), obj_moving_platform1);
 if(_movingPlatform!=noone && bbox_bottom>_movingPlatform.bbox_top)
 {
-    if(vsp>0)
-    {
-        while(!place_meeting(x, y + sign(vsp), obj_moving_platform1))
-        {
-            y+=sign(vsp);    
-        }
-        vsp=0;
-    }
-    x+=_movingPlatform.move_x;
-    y+=_movingPlatform.move_y;
+		if(vsp>0)
+		{
+	        while(!place_meeting(x, y + sign(vsp), obj_moving_platform1))
+	        {
+	            y+=sign(vsp);    
+	        }
+			vsp=0;
+		}
+		x+=_movingPlatform.move_x;
+		y+=_movingPlatform.move_y;
 }
+
+
 
 //WALL + MOVING PLATFORM COLLISION
 var block_on_movingPlatform = instance_place(x,y+max(1, vsp), obj_pushable_block);
@@ -94,7 +101,46 @@ else
 	scr_push_p1();
 }
 
-scr_move(hsp,vsp);
+if(place_meeting(x+hsp, y, obj_wall))
+{
+	while(!place_meeting(x+sign(hsp), y, obj_wall))
+	{
+		x+=sign(hsp);	
+	}
+	hsp = 0;	
+}
+else if(place_meeting(x+hsp, y, obj_door))
+{
+	while(!place_meeting(x+sign(hsp), y, obj_door))
+	{
+		x+=sign(hsp);	
+	}
+	hsp = 0;	
+}
+
+x+= hsp;
+
+
+//vertical collision
+
+if(place_meeting(x, y+vsp, obj_wall))
+{
+	while(!place_meeting(x, y+sign(vsp), obj_wall))
+	{
+		y= y + sign(vsp);
+	}
+	vsp = 0;	
+}
+else if(place_meeting(x, y+vsp, obj_door))
+{
+	while(!place_meeting(x, y+sign(vsp), obj_door))
+	{
+		y= y + sign(vsp);	
+	}
+	vsp = 0;
+}
+	y+= vsp;
+
 
 //JUMP ANIMATION
 if (!place_meeting(x,y+1,obj_wall) && !place_meeting(x,y+1,obj_moving_platform1))
@@ -112,7 +158,6 @@ if (!place_meeting(x,y+1,obj_wall) && !place_meeting(x,y+1,obj_moving_platform1)
 
 if (place_meeting( x,y, obj_ladder))
 {
-	vsp = 0;
 	if(key_up)
 	{
 		vsp = -2;

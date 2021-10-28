@@ -5,7 +5,7 @@ grav = gravity_normal;
 hsp = 0;
 hsp_carry=0;	//moving platform speed
 vsp = 0;
-jumpspeed = 8;
+jumpspeed = -8;
 movespeed = 4;
 
 are_we_in_water = false;

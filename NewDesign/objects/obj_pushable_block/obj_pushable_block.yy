@@ -5,7 +5,10 @@
   },
   "solid": false,
   "visible": true,
-  "spriteMaskId": null,
+  "spriteMaskId": {
+    "name": "spr_pushable_blocks",
+    "path": "sprites/spr_pushable_blocks/spr_pushable_blocks.yy",
+  },
   "persistent": false,
   "parentObjectId": {
     "name": "obj_wall",

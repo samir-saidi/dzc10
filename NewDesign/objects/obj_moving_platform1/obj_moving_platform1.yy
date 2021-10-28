@@ -5,7 +5,10 @@
   },
   "solid": false,
   "visible": true,
-  "spriteMaskId": null,
+  "spriteMaskId": {
+    "name": "spr_moving_platform",
+    "path": "sprites/spr_moving_platform/spr_moving_platform.yy",
+  },
   "persistent": false,
   "parentObjectId": null,
   "physicsObject": false,
