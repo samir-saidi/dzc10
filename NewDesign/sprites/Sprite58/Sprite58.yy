@@ -47,7 +47,7 @@
     "spriteId": {"name":"Sprite58","path":"sprites/Sprite58/Sprite58.yy",},
     "timeUnits": 1,
     "playback": 1,
-    "playbackSpeed": 3.0,
+    "playbackSpeed": 0.0,
     "playbackSpeedType": 0,
     "autoRecord": true,
     "volume": 1.0,
