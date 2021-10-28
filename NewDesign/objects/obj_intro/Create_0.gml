@@ -3,6 +3,8 @@ xpos = 640;
 a = 1;
 fadeout = 0;
 
+global.lvl_unlock = [true,false,false,false,false];
+
 str = "";
 print = "";
 
