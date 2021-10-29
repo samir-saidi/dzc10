@@ -144,7 +144,6 @@ if (!place_meeting(x,y+1,obj_wall) && !place_meeting(x,y+1,obj_moving_platform1)
 
 if (place_meeting( x,y, obj_vines))
 {
-	vsp = 0;
 	if(key_up)
 	{
 		vsp = -2;

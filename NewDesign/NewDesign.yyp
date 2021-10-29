@@ -111,6 +111,7 @@
     {"id":{"name":"Spr_lvldoor","path":"sprites/Spr_lvldoor/Spr_lvldoor.yy",},"order":0,},
     {"id":{"name":"Rm_lvl_enter_number11","path":"rooms/Rm_lvl_enter_number11/Rm_lvl_enter_number11.yy",},"order":10,},
     {"id":{"name":"spr_bird","path":"sprites/spr_bird/spr_bird.yy",},"order":31,},
+    {"id":{"name":"Rm_lvl_7","path":"rooms/Rm_lvl_7/Rm_lvl_7.yy",},"order":25,},
     {"id":{"name":"obj_enemy","path":"objects/obj_enemy/obj_enemy.yy",},"order":10,},
     {"id":{"name":"spr_enemy_jump","path":"sprites/spr_enemy_jump/spr_enemy_jump.yy",},"order":39,},
     {"id":{"name":"obj_moving_platform1","path":"objects/obj_moving_platform1/obj_moving_platform1.yy",},"order":4,},
@@ -199,6 +200,7 @@
     "children": [],
   },
   "RoomOrderNodes": [
+    {"roomId":{"name":"Rm_lvl_7","path":"rooms/Rm_lvl_7/Rm_lvl_7.yy",},},
     {"roomId":{"name":"cut_scene_lvl_2","path":"rooms/cut_scene_lvl_2/cut_scene_lvl_2.yy",},},
     {"roomId":{"name":"Intro_cutscene","path":"rooms/Intro_cutscene/Intro_cutscene.yy",},},
     {"roomId":{"name":"Rm_lvl_6","path":"rooms/Rm_lvl_6/Rm_lvl_6.yy",},},
