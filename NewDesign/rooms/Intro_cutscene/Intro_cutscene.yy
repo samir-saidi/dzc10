@@ -14,7 +14,8 @@
   ],
   "layers": [
     {"assets":[
-        {"spriteId":{"name":"spr_p1_fall","path":"sprites/spr_p1_fall/spr_p1_fall.yy",},"headPosition":0.0,"rotation":21.2397022,"scaleX":1.0,"scaleY":1.0,"animationSpeed":1.0,"colour":4294967295,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":640.0,"y":352.0,"resourceVersion":"1.0","name":"graphic_6F74402A","tags":[],"resourceType":"GMRSpriteGraphic",},
+        {"spriteId":{"name":"spr_ithuriel","path":"sprites/spr_ithuriel/spr_ithuriel.yy",},"headPosition":0.0,"rotation":0.0,"scaleX":0.58857137,"scaleY":0.6,"animationSpeed":1.0,"colour":4294967295,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":704.0,"y":192.0,"resourceVersion":"1.0","name":"graphic_624BAD64","tags":[],"resourceType":"GMRSpriteGraphic",},
+        {"spriteId":{"name":"spr_p2_fall","path":"sprites/spr_p2_fall/spr_p2_fall.yy",},"headPosition":0.0,"rotation":7.657936,"scaleX":1.0,"scaleY":1.0,"animationSpeed":1.0,"colour":4294967295,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":544.0,"y":384.0,"resourceVersion":"1.0","name":"graphic_6B4E2370","tags":[],"resourceType":"GMRSpriteGraphic",},
       ],"visible":true,"depth":0,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"resourceVersion":"1.0","name":"Assets_1","tags":[],"resourceType":"GMRAssetLayer",},
     {"instances":[
         {"properties":[],"isDnd":false,"objectId":{"name":"obj_intro","path":"objects/obj_intro/obj_intro.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":672.0,"y":224.0,"resourceVersion":"1.0","name":"inst_42867D4C","tags":[],"resourceType":"GMRInstance",},

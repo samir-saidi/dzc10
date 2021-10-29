@@ -53,9 +53,9 @@ else if (place_meeting(x,y,obj_water))
 	}
 	are_we_in_water=true;
 }
-else if(are_we_in_water && key_up)
+ if(are_we_in_water && key_up)
 {
-	vsp = key_up * - (jumpspeed/3);		//jumping in water
+	vsp = key_up *  (jumpspeed/3);		//jumping in water
 }
 
 

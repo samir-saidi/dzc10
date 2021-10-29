@@ -50,7 +50,7 @@ if(place_meeting(x,y+1, obj_wall)||place_meeting(x,y+1, obj_moving_platform1)){
 }
 else if(are_we_in_water&&key_up)
 {
-	vsp = key_up * - (jumpspeed/3);		//jumping in water
+	vsp = key_up *  (jumpspeed/3);		//jumping in water
 }
 //*/
 if(vsp < 10) vsp += grav;			//gravity
