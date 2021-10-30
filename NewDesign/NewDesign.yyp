@@ -118,6 +118,7 @@
     {"id":{"name":"spr_enemy_jump","path":"sprites/spr_enemy_jump/spr_enemy_jump.yy",},"order":39,},
     {"id":{"name":"obj_moving_platform1","path":"objects/obj_moving_platform1/obj_moving_platform1.yy",},"order":4,},
     {"id":{"name":"_834ce3b8_d05f_47d3_91a9_8ac97d5ab538","path":"sprites/_834ce3b8_d05f_47d3_91a9_8ac97d5ab538/_834ce3b8_d05f_47d3_91a9_8ac97d5ab538.yy",},"order":28,},
+    {"id":{"name":"obj_sound1","path":"objects/obj_sound1/obj_sound1.yy",},"order":52,},
     {"id":{"name":"spr_spikebase","path":"sprites/spr_spikebase/spr_spikebase.yy",},"order":45,},
     {"id":{"name":"spr_spike","path":"sprites/spr_spike/spr_spike.yy",},"order":23,},
     {"id":{"name":"obj_spike","path":"objects/obj_spike/obj_spike.yy",},"order":17,},
