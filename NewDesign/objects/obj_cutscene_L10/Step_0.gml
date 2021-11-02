@@ -1,39 +1,41 @@
-/// @description 
-camera_set_view_pos(view_camera[0], xpos, 180);
-xpos = max(xpos-0.3, 0); //animation speed
+draw_sprite_ext(spr_pixel, 0, 0,0, 1366, 200, 0, c_black, 1);
+draw_sprite_ext(spr_pixel, 0, 0,568, 1366, 200, 0, c_black, 1);
 
-if(!fadeout)
+DrawSetText(c_white, fSign, fa_center, fa_top);
+draw_text(683, 600, print);
+/*
+DrawSetText(c_white, fSign_small, fa_center, fa_top);
+draw_text(683, 60, "Hold space to skip");
+*/
+
+
+
+
+
+if(holdspace>0)
 {
-	a =max(a-0.01, 0.25);	
-}
-else
-{
-	a = min(a + 0.025, 1);	
-}
-
-l += 0.25; //text speed
-
-print = string_copy(str,1,l);
-
-if((l > string_length(str)+50) && (next<array_length_1d(strings)-1))
-{
-	l = 0;
-	next++;
-	if(next==array_length_1d(strings)-1)
-	{
-		holdspace=80;
-	}
+		draw_set_alpha(Wave(0.1, 0.7, 1,0));
+		DrawSetText(c_white, fSign_small, fa_center, fa_top);
+		draw_text(683, 60, "Hold space to skip");
+		draw_set_alpha(1);
 }
 
-str = strings[next];
 
-if(xpos<1) xpos = 640;
-if(keyboard_check_direct(vk_space))
-{
-	holdspace++	
-}
-if(holdspace>80)
-{
-	fadeout = 1;
-}
-if(a==1) && (fadeout=1) room_goto(Rm_lvl_10);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+draw_sprite_ext(spr_pixel, 0, 0,0, 1366, 768, 0, c_black, a);
