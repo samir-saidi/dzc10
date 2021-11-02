@@ -36,4 +36,4 @@ if(holdspace>80)
 {
 	fadeout = 1;
 }
-if(a==1) && (fadeout==1) room_goto(Rm_lvlselect);
+if(a==1) && (fadeout==1) room_goto(Rm_lvl_7);
