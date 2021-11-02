@@ -90,8 +90,6 @@ if(_movingPlatform!=noone && bbox_bottom>_movingPlatform.bbox_top)
 		y+=_movingPlatform.move_y;
 }
 
-
-
 //WALL + MOVING PLATFORM COLLISION
 var block_on_movingPlatform = instance_place(x,y+max(1, vsp), obj_pushable_block);
 if(block_on_movingPlatform!=noone && bbox_bottom>block_on_movingPlatform.bbox_top)

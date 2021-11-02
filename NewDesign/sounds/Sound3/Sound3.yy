@@ -10,14 +10,14 @@
     "name": "audiogroup_default",
     "path": "audiogroups/audiogroup_default",
   },
-  "soundFile": "Sound2.mp3",
-  "duration": 156.813019,
+  "soundFile": "Sound3.mp3",
+  "duration": 59.08895,
   "parent": {
     "name": "Sounds",
     "path": "folders/Sounds.yy",
   },
   "resourceVersion": "1.0",
-  "name": "Sound2",
+  "name": "Sound3",
   "tags": [],
   "resourceType": "GMSound",
 }
