@@ -12,7 +12,7 @@ next=0;
 
 holdspace=0;
 
-strings[0] = "You died. \n You're not sure how… \n maybe it was a car accident.";
+strings[0] = "You died. \n You're not sure how... \n maybe it was a car accident.";
 strings[1] = "Maybe it was of old age, \n your memories are slowly fading away, \n so you're not sure how old you were.";
 strings[2] = "You vaguely remember someone close and dear to you, but \n they are nothing more than \n a silhouette at this point.";
 strings[3] = "You slowly start to wonder what happens to dead people.";
