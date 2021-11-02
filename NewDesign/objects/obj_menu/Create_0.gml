@@ -3,12 +3,11 @@
 menu_x = x;
 menu_y = y;
 button_h = 50;
-button[0] = "Start Game";
+button[0] = "New Game";
 button[1] = "Load Game";
 button[2] = "Exit Game";
 
 buttons = array_length_1d(button);
-audio_play_sound(Sound2, 1000 , true);
 
 menu_index = 0;
 last_selected = 0;

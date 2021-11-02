@@ -2,7 +2,7 @@
 if(pause)
 {
 	pause_x = surface_get_width(application_surface)/2;
-	pause_y  = (surface_get_height(application_surface)/2) - 175;
+	pause_y  = (surface_get_height(application_surface)/2) - 50;
 	draw_set_color(c_black);
 	draw_set_alpha(1);
 	draw_sprite_ext(spr_pixel, 0, 0, 0,1366,768, 0, c_black, 1);
