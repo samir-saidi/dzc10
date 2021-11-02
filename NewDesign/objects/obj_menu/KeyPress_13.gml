@@ -6,6 +6,9 @@ switch (menu_index)
 		room_goto(room_next(room));
 		break;
 	case 1:
+		//save game code here
+		break;
+	case 2:
 		game_end();
 		break;
 }
