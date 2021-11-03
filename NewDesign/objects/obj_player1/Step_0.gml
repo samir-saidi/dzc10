@@ -168,7 +168,7 @@ if (place_meeting( x,y, obj_ladder))
 		vsp = -2;
 		sprite_index=spr_p1_climb;
 	}
-	else if(key_down)
+	else if(keyboard_check(vk_nokey))
 	{
 		sprite_index=spr_p1_climb;
 		vsp = 2;
