@@ -776,6 +776,9 @@
     {"instances":[
         {"properties":[],"isDnd":false,"objectId":{"name":"obj_door","path":"objects/obj_door/obj_door.yy",},"inheritCode":false,"hasCreationCode":true,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.45070422,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":2848.0,"y":64.0,"resourceVersion":"1.0","name":"inst_74B6D3DF","tags":[],"resourceType":"GMRInstance",},
         {"properties":[],"isDnd":false,"objectId":{"name":"obj_door","path":"objects/obj_door/obj_door.yy",},"inheritCode":false,"hasCreationCode":true,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.43661964,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":3136.0,"y":545.0,"resourceVersion":"1.0","name":"inst_220C735A","tags":[],"resourceType":"GMRInstance",},
+        {"properties":[
+            {"propertyId":{"name":"text","path":"objects/obj_sign/obj_sign.yy",},"objectId":{"name":"obj_sign","path":"objects/obj_sign/obj_sign.yy",},"value":"\"Maybe there is something to throw \\n on top of that button?\"","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
+          ],"isDnd":false,"objectId":{"name":"obj_sign","path":"objects/obj_sign/obj_sign.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":2176.0,"y":64.0,"resourceVersion":"1.0","name":"inst_62E5CB04","tags":[],"resourceType":"GMRInstance",},
       ],"visible":true,"depth":500,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"resourceVersion":"1.0","name":"doors","tags":[],"resourceType":"GMRInstanceLayer",},
     {"assets":[
         {"spriteId":{"name":"spr_stars","path":"sprites/spr_stars/spr_stars.yy",},"headPosition":0.0,"rotation":0.0,"scaleX":0.561643839,"scaleY":0.5826087,"animationSpeed":1.0,"colour":4294967295,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":2656.0,"y":352.0,"resourceVersion":"1.0","name":"graphic_4EA5B29F","tags":[],"resourceType":"GMRSpriteGraphic",},
@@ -1714,6 +1717,7 @@
     {"name":"inst_41C8D075","path":"rooms/Rm_lvl_5/Rm_lvl_5.yy",},
     {"name":"inst_74B6D3DF","path":"rooms/Rm_lvl_5/Rm_lvl_5.yy",},
     {"name":"inst_220C735A","path":"rooms/Rm_lvl_5/Rm_lvl_5.yy",},
+    {"name":"inst_62E5CB04","path":"rooms/Rm_lvl_5/Rm_lvl_5.yy",},
   ],
   "inheritCreationOrder": false,
   "sequenceId": null,
