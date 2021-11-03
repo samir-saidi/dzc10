@@ -6,7 +6,7 @@ if(!fadeout)
 {
 	a =max(a-0.01, 0.25);	
 }
-else if(fadeout)
+else
 {
 	a = min(a + 0.025, 1);	
 }
@@ -21,7 +21,7 @@ if((l > string_length(str)+50) && (next<array_length_1d(strings)-1))
 	next++;
 	if(next==array_length_1d(strings)-1)
 	{
-		holdspace++;
+		holdspace=80;
 	}
 }
 
@@ -36,4 +36,4 @@ if(holdspace>80)
 {
 	fadeout = 1;
 }
-if(a==1) && (fadeout==1) room_goto(Rm_lvl_6);
+if(a==1) && (fadeout=1) room_goto(Rm_lvl_6);

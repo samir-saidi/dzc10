@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "Sprite_p2_death",
-    "path": "sprites/Sprite_p2_death/Sprite_p2_death.yy",
+    "name": "Sprite57",
+    "path": "sprites/Sprite57/Sprite57.yy",
   },
   "solid": false,
   "visible": true,

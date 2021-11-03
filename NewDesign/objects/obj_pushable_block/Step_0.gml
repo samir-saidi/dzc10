@@ -65,7 +65,7 @@ if(place_meeting(x+1, y, obj_player1)||place_meeting(x-1, y, obj_player2)||place
 {
 	if(place_meeting(x, y, pad))
 	{
-		if(keyboard_check_pressed(ord("I"))|| keyboard_check_pressed(vk_rshift))
+		if(keyboard_check_pressed(ord("I"))|| keyboard_check_pressed(ord("E")))
 		{
 			for(i=0;i<instance_number(obj_dest_portal);i++)
 			{

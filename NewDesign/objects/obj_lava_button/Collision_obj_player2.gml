@@ -1,4 +1,4 @@
-if(keyboard_check(vk_rshift)&&obj_player2.hsp==0){
+if(keyboard_check(ord("I"))&&obj_player2.hsp==0){
 
 
 		if(instance_exists(obj_lava)){
