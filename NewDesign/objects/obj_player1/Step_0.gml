@@ -6,7 +6,7 @@ key_left = keyboard_check(ord("A"));
 key_down = keyboard_check(ord("S"));
 
 //Animate walking sprite
-if (key_left || key_right)
+if (key_left || key_right) && !are_we_in_water
 {
 	sprite_index = spr_p1_walk;
 }
@@ -16,7 +16,7 @@ else if (keyboard_check(vk_nokey))
 }
 
 //Animate jumping sprite
-if (!place_meeting(x,y+1,obj_wall) && !place_meeting(x,y+1,obj_moving_platform1))
+if (!place_meeting(x,y+1,obj_wall) && !place_meeting(x,y+1,obj_moving_platform1) && !are_we_in_water)
 {
 	if (sign(vsp) > 0)
 	{
@@ -43,10 +43,12 @@ if(!place_meeting(x, y, obj_water))
 }	
 else if (place_meeting(x,y,obj_water))
 {
-	
 	grav = gravity_swimming;
 	vsp = lerp(vsp, 0, 0.01);
-	
+	if (hsp != 0 or vsp != 0)
+	{
+		sprite_index = spr_p1_swim;
+	}
 	if(!are_we_in_water)
 	{
 		vsp /= 4;
@@ -89,8 +91,6 @@ if(_movingPlatform!=noone && bbox_bottom>_movingPlatform.bbox_top)
 		x+=_movingPlatform.move_x;
 		y+=_movingPlatform.move_y;
 }
-
-
 
 //WALL + MOVING PLATFORM COLLISION
 var block_on_movingPlatform = instance_place(x,y+max(1, vsp), obj_pushable_block);
