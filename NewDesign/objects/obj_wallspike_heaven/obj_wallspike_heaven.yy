@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "spr_wallspike",
-    "path": "sprites/spr_wallspike/spr_wallspike.yy",
+    "name": "spr_wallspike_h",
+    "path": "sprites/spr_wallspike_h/spr_wallspike_h.yy",
   },
   "solid": true,
   "visible": true,
@@ -31,7 +31,7 @@
     "path": "folders/Objects.yy",
   },
   "resourceVersion": "1.0",
-  "name": "obj_wallspike",
+  "name": "obj_wallspike_heaven",
   "tags": [],
   "resourceType": "GMObject",
 }
