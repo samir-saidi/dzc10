@@ -1,8 +1,5 @@
 {
-  "spriteId": {
-    "name": "spr_lavarock",
-    "path": "sprites/spr_lavarock/spr_lavarock.yy",
-  },
+  "spriteId": null,
   "tileWidth": 16,
   "tileHeight": 16,
   "tilexoff": 0,
