@@ -1,1 +1,0 @@
-global.deathCount = 0;
