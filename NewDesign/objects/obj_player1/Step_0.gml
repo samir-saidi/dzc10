@@ -144,14 +144,6 @@ if(place_meeting(x, y+vsp, obj_wall))
 	}
 	vsp = 0;	
 }
-else if(place_meeting(x, y+vsp, obj_door))
-{
-	while(!place_meeting(x, y+sign(vsp), obj_door))
-	{
-		y= y + sign(vsp);	
-	}
-	vsp = 0;
-}
 	y+= vsp;
 
 

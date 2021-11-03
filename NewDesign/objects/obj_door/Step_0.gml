@@ -22,11 +22,11 @@ if ( y != targetY ) {
   
   y += sign( _dir );
 }
-if (place_meeting(x,y+1, obj_player2))
+if (place_meeting(x,y+2, obj_player2))
 {
 	obj_player2.vsp *= -1;
 }
-if (place_meeting(x,y+1, obj_player1))
+if (place_meeting(x,y+2, obj_player1))
 {
 	obj_player1.vsp *= -1;
 }

@@ -41,6 +41,9 @@
             {"propertyId":{"name":"_target_room","path":"objects/obj_room_exit/obj_room_exit.yy",},"objectId":{"name":"obj_room_exit","path":"objects/obj_room_exit/obj_room_exit.yy",},"value":"cut_scene_lvl_3","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
             {"propertyId":{"name":"currentRoom","path":"objects/obj_room_exit/obj_room_exit.yy",},"objectId":{"name":"obj_room_exit","path":"objects/obj_room_exit/obj_room_exit.yy",},"value":"2","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
           ],"isDnd":false,"objectId":{"name":"obj_room_exit","path":"objects/obj_room_exit/obj_room_exit.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":12.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":1984.0,"y":384.0,"resourceVersion":"1.0","name":"inst_64DED289","tags":[],"resourceType":"GMRInstance",},
+        {"properties":[
+            {"propertyId":{"name":"text","path":"objects/obj_sign/obj_sign.yy",},"objectId":{"name":"obj_sign","path":"objects/obj_sign/obj_sign.yy",},"value":"\"Sometimes buttons \\n are hidden in \\n the water\"","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
+          ],"isDnd":false,"objectId":{"name":"obj_sign","path":"objects/obj_sign/obj_sign.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":1248.0,"y":224.0,"resourceVersion":"1.0","name":"inst_1D0557E1","tags":[],"resourceType":"GMRInstance",},
       ],"visible":true,"depth":100,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"resourceVersion":"1.0","name":"Instances_1","tags":[],"resourceType":"GMRInstanceLayer",},
     {"assets":[
         {"spriteId":{"name":"spr_wall_grey","path":"sprites/spr_wall_grey/spr_wall_grey.yy",},"headPosition":0.0,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"animationSpeed":1.0,"colour":4294967295,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":1824.0,"y":192.0,"resourceVersion":"1.0","name":"graphic_F8658C8","tags":[],"resourceType":"GMRSpriteGraphic",},
@@ -926,6 +929,7 @@
     {"name":"inst_2A10D698","path":"rooms/Rm_lvl_2/Rm_lvl_2.yy",},
     {"name":"inst_5EDC387D","path":"rooms/Rm_lvl_2/Rm_lvl_2.yy",},
     {"name":"inst_2BB96889","path":"rooms/Rm_lvl_2/Rm_lvl_2.yy",},
+    {"name":"inst_1D0557E1","path":"rooms/Rm_lvl_2/Rm_lvl_2.yy",},
   ],
   "inheritCreationOrder": false,
   "sequenceId": null,

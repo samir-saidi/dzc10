@@ -24,6 +24,7 @@ if (pause)
 				for (var p = 0; p < 10; p++){
 				ini_write_string("global_variables", "lvl_unlock" + string(p), global.lvl_unlock[p]);
 				}
+				ini_write_real("global_variables", "deathCount", global.deathCount);
 				ini_close();
 				show_debug_message("Saved in original");
 				room_goto(Rm_menu);
@@ -36,6 +37,7 @@ if (pause)
 				for (var p = 0; p < 10; p++){
 				ini_write_string("global_variables", "lvl_unlock" + string(p), global.lvl_unlock[p]);
 				}
+				ini_write_real("global_variables", "deathCount", global.deathCount);
 				ini_close();
 				show_debug_message("Overwrite original");
 				room_goto(Rm_menu);

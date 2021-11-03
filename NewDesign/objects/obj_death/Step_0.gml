@@ -11,7 +11,7 @@ else
 	a = min(a + 0.025, 1);	
 }
 
-l += 0.25; //text speed
+l += 0.4; //text speed
 
 print = string_copy(str,1,l);
 

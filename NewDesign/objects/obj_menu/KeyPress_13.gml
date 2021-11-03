@@ -4,6 +4,7 @@ switch (menu_index)
 {
 	case 0:
 		global.lvl_unlock = [true,false,false,false,false, false, false, false, false, false, false, false, false, false];
+		global.deathCount = 0;
 		fname = "saveData.ini";
 		if (file_exists(fname))
 		{
@@ -18,12 +19,15 @@ switch (menu_index)
 		break;
 	case 1:
 		fname = "saveData.ini";
+		
 		if (file_exists(fname)) {
 			ini_open(fname);
+			global.deathCount = 0;
 			global.lvl_unlock = [true,false,false,false,false, false, false, false, false, false, false, false, false, false];
 			for (var p = 0; p < 10; p++){
 				global.lvl_unlock[p] = ini_read_string("global_variables", "lvl_unlock" + string(p), global.lvl_unlock[p]);
 				}
+			global.deathCount = ini_read_real("global_variables", "deathCount", global.deathCount);
 			ini_close();
 			if (global.lvl_unlock[1] == true)
 			{
