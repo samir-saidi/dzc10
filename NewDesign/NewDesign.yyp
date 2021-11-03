@@ -127,6 +127,7 @@
     {"id":{"name":"spr_spikebase","path":"sprites/spr_spikebase/spr_spikebase.yy",},"order":45,},
     {"id":{"name":"spr_spike","path":"sprites/spr_spike/spr_spike.yy",},"order":23,},
     {"id":{"name":"obj_spike","path":"objects/obj_spike/obj_spike.yy",},"order":17,},
+    {"id":{"name":"spr_new_gate","path":"sprites/spr_new_gate/spr_new_gate.yy",},"order":102,},
     {"id":{"name":"obj_platformpoint","path":"objects/obj_platformpoint/obj_platformpoint.yy",},"order":5,},
     {"id":{"name":"spr_drazrath","path":"sprites/spr_drazrath/spr_drazrath.yy",},"order":98,},
     {"id":{"name":"obj_intro","path":"objects/obj_intro/obj_intro.yy",},"order":53,},
