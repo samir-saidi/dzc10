@@ -219,6 +219,9 @@
     {"roomId":{"name":"Room2","path":"rooms/Room2/Room2.yy",},},
     {"roomId":{"name":"Room3","path":"rooms/Room3/Room3.yy",},},
     {"roomId":{"name":"Rm_lvl_enter_number11","path":"rooms/Rm_lvl_enter_number11/Rm_lvl_enter_number11.yy",},},
+<<<<<<< HEAD
+>>>>>>> parent of dc60325 (level 10)
+=======
 >>>>>>> parent of dc60325 (level 10)
     {"roomId":{"name":"Rm_lvlselect_error","path":"rooms/Rm_lvlselect_error/Rm_lvlselect_error.yy",},},
     {"roomId":{"name":"RoomDeath","path":"rooms/RoomDeath/RoomDeath.yy",},},
