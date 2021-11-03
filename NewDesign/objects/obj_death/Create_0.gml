@@ -13,8 +13,7 @@ holdspace=0;
 
 global.deathCount++;
 
-strings[0] = "You have failed the trials";
-strings[1] = "Fail count: " + string(global.deathCount);
+strings[0] = "YOU HAVE FAILED THE TRIALS...\n" + "Fail count: " + string(global.deathCount);
 
 
 

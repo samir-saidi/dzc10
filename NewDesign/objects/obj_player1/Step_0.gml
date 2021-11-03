@@ -146,6 +146,16 @@ if(place_meeting(x, y+vsp, obj_wall))
 }
 	y+= vsp;
 
+if (place_meeting(x,y-1, obj_door) && vsp < 0)
+{
+	vsp *= -1;
+}
+else if (place_meeting(x,y,obj_door))
+{
+	global.lastRoom = room;
+	room_goto(RoomDeath);
+}
+
 
 
 

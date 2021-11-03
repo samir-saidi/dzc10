@@ -122,7 +122,18 @@ if(place_meeting(x, y+vsp, obj_wall))
 	}
 	vsp = 0;	
 }
-	y+= vsp;
+y+= vsp;
+
+if (place_meeting(x,y-1, obj_door) && vsp < 0)
+{
+	vsp *= -1;
+}
+else if (place_meeting(x,y,obj_door))
+{
+	global.lastRoom = room;
+	room_goto(RoomDeath);
+}
+	
 
 if (!place_meeting(x,y+1,obj_wall) && !place_meeting(x,y+1,obj_moving_platform1))
 {
@@ -141,7 +152,20 @@ if (place_meeting( x,y, obj_vines))
 		vsp = -2;
 		sprite_index=spr_p2_climb;
 	}
-	else if(key_down)
+	else if(keyboard_check(vk_nokey))
+	{
+		sprite_index=spr_p2_climb;
+		vsp = 2;
+	}
+}
+if (place_meeting(x,y,obj_ladder))
+{
+	if(key_up)
+	{
+		vsp = -2;
+		sprite_index=spr_p2_climb;
+	}
+	else if(keyboard_check(vk_nokey))
 	{
 		sprite_index=spr_p2_climb;
 		vsp = 2;

@@ -30,10 +30,6 @@ str = strings[next];
 if(xpos<1) xpos = 640;
 if(keyboard_check_direct(vk_space))
 {
-	holdspace++	
-}
-if(holdspace>80)
-{
 	fadeout = 1;
+	 room_goto(global.lastRoom);
 }
-if(a==1) && (fadeout=1) room_goto(global.lastRoom);

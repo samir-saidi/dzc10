@@ -22,22 +22,4 @@ if ( y != targetY ) {
   
   y += sign( _dir );
 }
-if (place_meeting(x,y+2, obj_player2))
-{
-	obj_player2.vsp *= -1;
-}
-if (place_meeting(x,y+2, obj_player1))
-{
-	obj_player1.vsp *= -1;
-}
-if (place_meeting(x,y-2,obj_player1))
-{
-	obj_player2.sprite_index = spr_p1_fall;
-	global.lastRoom = room;
-	room_goto(RoomDeath);
-}
-if (place_meeting(x,y-2,obj_player2))
-{
-	global.lastRoom = room;
-	room_goto(RoomDeath);
-}
+
