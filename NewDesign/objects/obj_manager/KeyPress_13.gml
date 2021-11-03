@@ -21,7 +21,7 @@ if (pause)
 			if (!file_exists(fname))
 			{
 				ini_open(fname);
-				for (var p = 0; p < 10; p++){
+				for (var p = 0; p < 11; p++){
 				ini_write_string("global_variables", "lvl_unlock" + string(p), global.lvl_unlock[p]);
 				}
 				ini_write_real("global_variables", "deathCount", global.deathCount);

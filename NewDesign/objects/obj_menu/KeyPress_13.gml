@@ -24,7 +24,7 @@ switch (menu_index)
 			ini_open(fname);
 			global.deathCount = 0;
 			global.lvl_unlock = [true,false,false,false,false, false, false, false, false, false, false, false, false, false];
-			for (var p = 0; p < 10; p++){
+			for (var p = 0; p < 11; p++){
 				global.lvl_unlock[p] = ini_read_string("global_variables", "lvl_unlock" + string(p), global.lvl_unlock[p]);
 				}
 			global.deathCount = ini_read_real("global_variables", "deathCount", global.deathCount);
