@@ -5,7 +5,7 @@ repeat(buttons)
 {
 	draw_set_color(c_black);
 	draw_set_font(Font45);
-	draw_text_color(menu_x, menu_y - 230, "TRIALS OF EDEN", c_red, c_blue, c_white, c_yellow, 1.0);
+	//draw_text_color(menu_x, menu_y - 230, "TRIALS OF EDEN", c_red, c_blue, c_white, c_yellow, 1.0);
 	draw_set_font(Font4);
 	draw_set_halign(fa_center);
 	
