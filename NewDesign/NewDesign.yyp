@@ -203,6 +203,7 @@
     "children": [],
   },
   "RoomOrderNodes": [
+    {"roomId":{"name":"Rm_lvl_enter_number11","path":"rooms/Rm_lvl_enter_number11/Rm_lvl_enter_number11.yy",},},
     {"roomId":{"name":"Rm_lvl_6","path":"rooms/Rm_lvl_6/Rm_lvl_6.yy",},},
     {"roomId":{"name":"cut_scene_lvl_6","path":"rooms/cut_scene_lvl_6/cut_scene_lvl_6.yy",},},
     {"roomId":{"name":"Rm_lvl_7","path":"rooms/Rm_lvl_7/Rm_lvl_7.yy",},},
@@ -220,7 +221,6 @@
     {"roomId":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
     {"roomId":{"name":"Room2","path":"rooms/Room2/Room2.yy",},},
     {"roomId":{"name":"Room3","path":"rooms/Room3/Room3.yy",},},
-    {"roomId":{"name":"Rm_lvl_enter_number11","path":"rooms/Rm_lvl_enter_number11/Rm_lvl_enter_number11.yy",},},
     {"roomId":{"name":"Rm_lvlselect_error","path":"rooms/Rm_lvlselect_error/Rm_lvlselect_error.yy",},},
     {"roomId":{"name":"RoomDeath","path":"rooms/RoomDeath/RoomDeath.yy",},},
     {"roomId":{"name":"Room5","path":"rooms/Room5/Room5.yy",},},
