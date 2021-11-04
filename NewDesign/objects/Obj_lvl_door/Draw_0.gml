@@ -4,6 +4,7 @@
 //Draw itself 
 draw_self();
 //Draw the lvl_nember as specified in the variables
+draw_set_color(c_white);
 draw_text(x+30, y+50, string(lvl_number));
 
 /*
