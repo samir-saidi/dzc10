@@ -29,6 +29,7 @@
     {"id":{"name":"spr_boss_bg","path":"sprites/spr_boss_bg/spr_boss_bg.yy",},"order":110,},
     {"id":{"name":"spr_p2_fall","path":"sprites/spr_p2_fall/spr_p2_fall.yy",},"order":12,},
     {"id":{"name":"spr_wall_grey_1","path":"sprites/spr_wall_grey_1/spr_wall_grey_1.yy",},"order":86,},
+    {"id":{"name":"obj_cutscene_credits","path":"objects/obj_cutscene_credits/obj_cutscene_credits.yy",},"order":70,},
     {"id":{"name":"obj_sign","path":"objects/obj_sign/obj_sign.yy",},"order":27,},
     {"id":{"name":"obj_gun2","path":"objects/obj_gun2/obj_gun2.yy",},"order":20,},
     {"id":{"name":"spr_wall_for_block","path":"sprites/spr_wall_for_block/spr_wall_for_block.yy",},"order":121,},
@@ -252,6 +253,7 @@
     "children": [],
   },
   "RoomOrderNodes": [
+    {"roomId":{"name":"cut_scene_credits","path":"rooms/cut_scene_credits/cut_scene_credits.yy",},},
     {"roomId":{"name":"Rm_menu","path":"rooms/Rm_menu/Rm_menu.yy",},},
     {"roomId":{"name":"Intro_cutscene","path":"rooms/Intro_cutscene/Intro_cutscene.yy",},},
     {"roomId":{"name":"Rm_lvlselect","path":"rooms/Rm_lvlselect/Rm_lvlselect.yy",},},
@@ -279,7 +281,6 @@
     {"roomId":{"name":"Rm_lvl_5","path":"rooms/Rm_lvl_5/Rm_lvl_5.yy",},},
     {"roomId":{"name":"Rm_lvlselect_error","path":"rooms/Rm_lvlselect_error/Rm_lvlselect_error.yy",},},
     {"roomId":{"name":"RoomDeath","path":"rooms/RoomDeath/RoomDeath.yy",},},
-    {"roomId":{"name":"cut_scene_credits","path":"rooms/cut_scene_credits/cut_scene_credits.yy",},},
   ],
   "Folders": [
     {"folderPath":"folders/Sprites.yy","order":0,"resourceVersion":"1.0","name":"Sprites","tags":[],"resourceType":"GMFolder",},
