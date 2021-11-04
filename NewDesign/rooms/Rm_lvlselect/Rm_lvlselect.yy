@@ -64,6 +64,9 @@
         {"properties":[],"isDnd":false,"objectId":{"name":"obj_wall","path":"objects/obj_wall/obj_wall.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":1312.0,"y":384.0,"resourceVersion":"1.0","name":"inst_D98A7D8","tags":[],"resourceType":"GMRInstance",},
         {"properties":[],"isDnd":false,"objectId":{"name":"obj_wall","path":"objects/obj_wall/obj_wall.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":1376.0,"y":384.0,"resourceVersion":"1.0","name":"inst_2715F9D9","tags":[],"resourceType":"GMRInstance",},
         {"properties":[],"isDnd":false,"objectId":{"name":"obj_wall","path":"objects/obj_wall/obj_wall.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":1344.0,"y":384.0,"resourceVersion":"1.0","name":"inst_5E16A42F","tags":[],"resourceType":"GMRInstance",},
+        {"properties":[
+            {"propertyId":{"name":"text","path":"objects/obj_sign/obj_sign.yy",},"objectId":{"name":"obj_sign","path":"objects/obj_sign/obj_sign.yy",},"value":"\"FOR GRADING: \\n Press U to unlock all levels\"","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
+          ],"isDnd":false,"objectId":{"name":"obj_sign","path":"objects/obj_sign/obj_sign.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4280418221,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":320.0,"y":704.0,"resourceVersion":"1.0","name":"inst_65F56B2","tags":[],"resourceType":"GMRInstance",},
       ],"visible":true,"depth":0,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"resourceVersion":"1.0","name":"players","tags":[],"resourceType":"GMRInstanceLayer",},
     {"instances":[
         {"properties":[],"isDnd":false,"objectId":{"name":"obj_ladder","path":"objects/obj_ladder/obj_ladder.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":0.5733333,"scaleY":0.6564502,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":1249.0,"y":582.0,"resourceVersion":"1.0","name":"inst_4B0E7D79","tags":[],"resourceType":"GMRInstance",},
@@ -493,6 +496,7 @@
     {"name":"inst_D98A7D8","path":"rooms/Rm_lvlselect/Rm_lvlselect.yy",},
     {"name":"inst_2715F9D9","path":"rooms/Rm_lvlselect/Rm_lvlselect.yy",},
     {"name":"inst_5E16A42F","path":"rooms/Rm_lvlselect/Rm_lvlselect.yy",},
+    {"name":"inst_65F56B2","path":"rooms/Rm_lvlselect/Rm_lvlselect.yy",},
   ],
   "inheritCreationOrder": false,
   "sequenceId": null,

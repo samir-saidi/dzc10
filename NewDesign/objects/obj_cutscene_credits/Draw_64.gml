@@ -6,7 +6,7 @@ if(holdspace>0)
 {
 		draw_set_alpha(Wave(0.1, 0.7, 1,0));
 		DrawSetText(c_white, fSign_small, fa_center, fa_top);
-		draw_text(683, 60, "Hold space to skip");
+		draw_text(683, 60, "Hold space to return to Menu");
 		draw_set_alpha(1);
 }
 
