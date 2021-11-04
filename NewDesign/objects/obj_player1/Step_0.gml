@@ -10,13 +10,13 @@ if (key_left || key_right) && !are_we_in_water
 {
 	sprite_index = spr_p1_walk;
 }
-else if (keyboard_check(vk_nokey))
+else
 {
 	sprite_index = spr_p1_idle;
 }
 
 //Animate jumping sprite
-if (!place_meeting(x,y+1,obj_wall) && !place_meeting(x,y+1,obj_moving_platform1) && !are_we_in_water)
+if (!place_meeting(x,y+1,obj_wall) && !place_meeting(x,y+1,obj_moving_platform1) && !place_meeting(x,y+1,obj_wall_for_boss) && !are_we_in_water)
 {
 	if (sign(vsp) > 0)
 	{
@@ -62,7 +62,7 @@ else if (place_meeting(x,y,obj_water))
 
 
 //Allows you to jump when standing on a platform
-if(place_meeting(x,y+1, obj_wall) || place_meeting(x,y+1, obj_moving_platform1) || place_meeting(x,y+1, obj_pushable_block)) and key_up{
+if(place_meeting(x,y+1, obj_wall) || place_meeting(x,y+1, obj_wall_for_boss) || place_meeting(x,y+1, obj_moving_platform1) || place_meeting(x,y+1, obj_pushable_block)) and key_up{
 	
 	vsp = jumpspeed;		//jumping mechanic
 }
@@ -139,6 +139,14 @@ x+= hsp;
 if(place_meeting(x, y+vsp, obj_wall))
 {
 	while(!place_meeting(x, y+sign(vsp), obj_wall))
+	{
+		y= y + sign(vsp);
+	}
+	vsp = 0;	
+}
+if(place_meeting(x, y+vsp, obj_wall_for_boss))
+{
+	while(!place_meeting(x, y+sign(vsp), obj_wall_for_boss))
 	{
 		y= y + sign(vsp);
 	}

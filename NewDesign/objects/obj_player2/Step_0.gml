@@ -43,7 +43,7 @@ else
 
 
 
-if(place_meeting(x,y+1, obj_wall)||place_meeting(x,y+1, obj_moving_platform1)){
+if(place_meeting(x,y+1, obj_wall) || place_meeting(x,y+1,obj_wall_for_boss) ||place_meeting(x,y+1, obj_moving_platform1)){
 	
 	if(are_we_in_water){ vsp = key_up*-(jumpspeed/3);}
 	else{vsp = key_up * - jumpspeed;}		//jumping mechanic
@@ -117,6 +117,14 @@ x+= hsp;
 if(place_meeting(x, y+vsp, obj_wall))
 {
 	while(!place_meeting(x, y+sign(vsp), obj_wall))
+	{
+		y= y + sign(vsp);
+	}
+	vsp = 0;	
+}
+if(place_meeting(x, y+vsp, obj_wall_for_boss))
+{
+	while(!place_meeting(x, y+sign(vsp), obj_wall_for_boss))
 	{
 		y= y + sign(vsp);
 	}

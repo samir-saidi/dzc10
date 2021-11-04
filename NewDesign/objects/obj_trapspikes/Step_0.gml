@@ -6,6 +6,14 @@ if (delay > 0)
 else
 {
 	image_index=1;
+	if (room == Rm_lvl_11)
+	{
+		if (place_meeting(x,y,obj_pushable_block))
+		{
+			var currentBlock = instance_place(x,y,obj_pushable_block);
+			instance_destroy(currentBlock);
+		}
+	}
 	delay = 5*room_speed;
 }
 if (delay2 > 0)
