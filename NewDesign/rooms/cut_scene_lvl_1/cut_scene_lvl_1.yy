@@ -14,7 +14,7 @@
   ],
   "layers": [
     {"assets":[
-        {"spriteId":{"name":"spr_ithuriel","path":"sprites/spr_ithuriel/spr_ithuriel.yy",},"headPosition":0.0,"rotation":0.0,"scaleX":0.58857137,"scaleY":0.6,"animationSpeed":1.0,"colour":4294967295,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":704.0,"y":192.0,"resourceVersion":"1.0","name":"graphic_624BAD64_2","tags":[],"resourceType":"GMRSpriteGraphic",},
+        {"spriteId":{"name":"spr_ithuriel","path":"sprites/spr_ithuriel/spr_ithuriel.yy",},"headPosition":0.0,"rotation":0.0,"scaleX":0.58857137,"scaleY":0.6,"animationSpeed":1.0,"colour":4294967295,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":768.0,"y":320.0,"resourceVersion":"1.0","name":"graphic_624BAD64_2","tags":[],"resourceType":"GMRSpriteGraphic",},
         {"spriteId":{"name":"spr_p1_idle","path":"sprites/spr_p1_idle/spr_p1_idle.yy",},"headPosition":0.0,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"animationSpeed":1.0,"colour":4294967295,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":512.0,"y":384.0,"resourceVersion":"1.0","name":"graphic_35CBFA2F_1","tags":[],"resourceType":"GMRSpriteGraphic",},
       ],"visible":true,"depth":0,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"resourceVersion":"1.0","name":"Assets_1","tags":[],"resourceType":"GMRAssetLayer",},
     {"instances":[
