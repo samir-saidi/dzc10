@@ -253,7 +253,6 @@
     "children": [],
   },
   "RoomOrderNodes": [
-    {"roomId":{"name":"cut_scene_credits","path":"rooms/cut_scene_credits/cut_scene_credits.yy",},},
     {"roomId":{"name":"Rm_menu","path":"rooms/Rm_menu/Rm_menu.yy",},},
     {"roomId":{"name":"Intro_cutscene","path":"rooms/Intro_cutscene/Intro_cutscene.yy",},},
     {"roomId":{"name":"Rm_lvlselect","path":"rooms/Rm_lvlselect/Rm_lvlselect.yy",},},
@@ -278,6 +277,7 @@
     {"roomId":{"name":"cut_scene_lvl_10","path":"rooms/cut_scene_lvl_10/cut_scene_lvl_10.yy",},},
     {"roomId":{"name":"Rm_lvl_11","path":"rooms/Rm_lvl_11/Rm_lvl_11.yy",},},
     {"roomId":{"name":"Rm_lvl_12","path":"rooms/Rm_lvl_12/Rm_lvl_12.yy",},},
+    {"roomId":{"name":"cut_scene_credits","path":"rooms/cut_scene_credits/cut_scene_credits.yy",},},
     {"roomId":{"name":"Rm_lvl_5","path":"rooms/Rm_lvl_5/Rm_lvl_5.yy",},},
     {"roomId":{"name":"Rm_lvlselect_error","path":"rooms/Rm_lvlselect_error/Rm_lvlselect_error.yy",},},
     {"roomId":{"name":"RoomDeath","path":"rooms/RoomDeath/RoomDeath.yy",},},
