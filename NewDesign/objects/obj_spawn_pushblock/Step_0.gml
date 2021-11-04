@@ -1,7 +1,7 @@
 
 timeSinceLastSpawn += 1 / room_speed; // adds 1 to variable ever second
 
-if (!place_meeting(x,y,obj_player1) && !place_meeting(x,y,obj_player2))
+if (!place_meeting(x,y,obj_player1) && !place_meeting(x,y,obj_player2) && !place_meeting(x,y,obj_pushable_block))
 {
 	if (timeSinceLastSpawn >= timeBetweenSpawns && !position_meeting(x,y,obj_pushable_block)) // if your timer is greater or equal to your timeBetweenSpawns
 	{
