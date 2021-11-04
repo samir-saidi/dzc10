@@ -14,8 +14,8 @@
   ],
   "layers": [
     {"instances":[
-        {"properties":[],"isDnd":false,"objectId":{"name":"obj_sound1","path":"objects/obj_sound1/obj_sound1.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":32.0,"y":32.0,"resourceVersion":"1.0","name":"inst_2004B84C","tags":[],"resourceType":"GMRInstance",},
         {"properties":[],"isDnd":false,"objectId":{"name":"obj_manager","path":"objects/obj_manager/obj_manager.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":32.0,"y":64.0,"resourceVersion":"1.0","name":"inst_5B92F342","tags":[],"resourceType":"GMRInstance",},
+        {"properties":[],"isDnd":false,"objectId":{"name":"obj_sound2","path":"objects/obj_sound2/obj_sound2.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":32.0,"y":32.0,"resourceVersion":"1.0","name":"inst_ED8C81C","tags":[],"resourceType":"GMRInstance",},
       ],"visible":true,"depth":0,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"resourceVersion":"1.0","name":"water_lava","tags":[],"resourceType":"GMRInstanceLayer",},
     {"instances":[
         {"properties":[],"isDnd":false,"objectId":{"name":"obj_player2","path":"objects/obj_player2/obj_player2.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":160.0,"y":704.0,"resourceVersion":"1.0","name":"inst_DC07C86_1","tags":[],"resourceType":"GMRInstance",},
@@ -699,8 +699,8 @@
     {"name":"inst_7745F603","path":"rooms/Rm_lvl_3/Rm_lvl_3.yy",},
     {"name":"inst_5D293EEE","path":"rooms/Rm_lvl_3/Rm_lvl_3.yy",},
     {"name":"inst_2524DC89","path":"rooms/Rm_lvl_3/Rm_lvl_3.yy",},
-    {"name":"inst_2004B84C","path":"rooms/Rm_lvl_3/Rm_lvl_3.yy",},
     {"name":"inst_5B92F342","path":"rooms/Rm_lvl_3/Rm_lvl_3.yy",},
+    {"name":"inst_ED8C81C","path":"rooms/Rm_lvl_3/Rm_lvl_3.yy",},
   ],
   "inheritCreationOrder": false,
   "sequenceId": null,

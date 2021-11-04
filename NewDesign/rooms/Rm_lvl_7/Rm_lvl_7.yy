@@ -15,7 +15,7 @@
   "layers": [
     {"instances":[
         {"properties":[],"isDnd":false,"objectId":{"name":"obj_water","path":"objects/obj_water/obj_water.yy",},"inheritCode":false,"hasCreationCode":false,"colour":3573547007,"rotation":0.0,"scaleX":20.0,"scaleY":8.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":976.0,"y":240.0,"resourceVersion":"1.0","name":"inst_22529CCD","tags":[],"resourceType":"GMRInstance",},
-        {"properties":[],"isDnd":false,"objectId":{"name":"obj_sound1","path":"objects/obj_sound1/obj_sound1.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":32.0,"y":32.0,"resourceVersion":"1.0","name":"inst_208DF35","tags":[],"resourceType":"GMRInstance",},
+        {"properties":[],"isDnd":false,"objectId":{"name":"obj_sound2","path":"objects/obj_sound2/obj_sound2.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":32.0,"y":32.0,"resourceVersion":"1.0","name":"inst_45BC730B","tags":[],"resourceType":"GMRInstance",},
       ],"visible":true,"depth":0,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"resourceVersion":"1.0","name":"water_lava","tags":[],"resourceType":"GMRInstanceLayer",},
     {"assets":[
         {"spriteId":{"name":"spr_wall","path":"sprites/spr_wall/spr_wall.yy",},"headPosition":0.0,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"animationSpeed":1.0,"colour":3305111551,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":416.0,"y":704.0,"resourceVersion":"1.0","name":"graphic_45115377","tags":[],"resourceType":"GMRSpriteGraphic",},
@@ -1683,7 +1683,6 @@
     {"name":"inst_10EFA9A0_1_1_1_1","path":"rooms/Rm_lvl_7/Rm_lvl_7.yy",},
     {"name":"inst_3823240B","path":"rooms/Rm_lvl_7/Rm_lvl_7.yy",},
     {"name":"inst_50E02E7C","path":"rooms/Rm_lvl_7/Rm_lvl_7.yy",},
-    {"name":"inst_208DF35","path":"rooms/Rm_lvl_7/Rm_lvl_7.yy",},
     {"name":"inst_730D6FAE","path":"rooms/Rm_lvl_7/Rm_lvl_7.yy",},
     {"name":"inst_40B9BB50","path":"rooms/Rm_lvl_7/Rm_lvl_7.yy",},
     {"name":"inst_7836B0B1","path":"rooms/Rm_lvl_7/Rm_lvl_7.yy",},
@@ -1694,6 +1693,7 @@
     {"name":"inst_5E61E505","path":"rooms/Rm_lvl_7/Rm_lvl_7.yy",},
     {"name":"inst_34FFB3A0","path":"rooms/Rm_lvl_7/Rm_lvl_7.yy",},
     {"name":"inst_4F76B9E5","path":"rooms/Rm_lvl_7/Rm_lvl_7.yy",},
+    {"name":"inst_45BC730B","path":"rooms/Rm_lvl_7/Rm_lvl_7.yy",},
   ],
   "inheritCreationOrder": false,
   "sequenceId": null,
